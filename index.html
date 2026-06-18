@@ -806,11 +806,7 @@
     </div>
     <h1>Copa do Mundo 2026</h1>
     <p>Painel inteligente de acompanhamento de jogos, estatísticas em tempo real e resumos pós-jogo.</p>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px; margin-top: 15px;">
-      <div class="badge-updated" id="last-updated-badge">
-        <div class="dot"></div>
-        <span>Atualizando...</span>
-      </div>
+    <div style="display: flex; justify-content: center; align-items: center; margin-top: 15px;">
       <div class="timezone-switcher">
         <span class="timezone-switcher-label">Fuso Horário:</span>
         <button class="timezone-btn" id="tz-br" onclick="setTimezone('BR')" title="Horário de Brasília (BRT)">
@@ -847,7 +843,7 @@
         <!-- Caixa de Busca -->
         <div class="search-box">
           <i data-lucide="search" style="width: 18px; height: 18px;"></i>
-          <input type="text" id="search-input" placeholder="Buscar por país ou estádio..." oninput="filterMatches()">
+          <input type="text" id="search-input" placeholder="Buscar por seleção ou estádio..." oninput="filterMatches()">
         </div>
 
         <!-- Filtro por Grupo -->
@@ -976,9 +972,10 @@
       }
     }
 
-    // Atualiza a badge de última verificação
+    // Atualiza a badge de última verificação (desativada no cabeçalho)
     function updateLastUpdatedBadge() {
       const badge = document.querySelector('#last-updated-badge span');
+      if (!badge) return;
       if (typeof COPA_DATA !== 'undefined' && COPA_DATA.last_check) {
         const date = new Date(COPA_DATA.last_check);
         const formatedDate = date.toLocaleString('pt-BR', {
@@ -1283,9 +1280,9 @@
         card.className = 'standings-card';
         
         let rowsHTML = '';
-        const top3 = groups[g].slice(0, 3);
+        const allTeams = groups[g]; // Exibe todos os 4 países do grupo
         
-        top3.forEach((team, idx) => {
+        allTeams.forEach((team, idx) => {
           const rank = idx + 1;
           const flagUrl = `https://flagcdn.com/w40/${team.code}.png`;
           rowsHTML += `
@@ -1307,7 +1304,7 @@
         card.innerHTML = `
           <div class="standings-card-header">
             <h3>Grupo ${g}</h3>
-            <span class="top3-badge">Top 3</span>
+            <span class="top3-badge">Classificação</span>
           </div>
           <table class="standings-table">
             <thead>
