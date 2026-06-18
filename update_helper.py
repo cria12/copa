@@ -446,7 +446,7 @@ def git_push(base_dir):
             return
             
         print("Criando commit...")
-        subprocess.run([git_path, "commit", "-m", "Auto-update Copa 2026 data"], cwd=base_dir, check=True)
+        subprocess.run([git_path, "commit", "-m", "git commit update"], cwd=base_dir, check=True)
         subprocess.run([git_path, "branch", "-M", "main"], cwd=base_dir, check=True)
         
         # Verificar se existe remote 'origin'

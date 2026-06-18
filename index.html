@@ -1003,13 +1003,7 @@
       document.getElementById('search-input').value = '';
       document.getElementById('group-filter').value = 'all';
 
-      // Ocultar barra de pesquisa na aba de classificação/pontos
-      const searchBox = document.querySelector('.search-box');
-      if (tab === 'standings') {
-        searchBox.style.display = 'none';
-      } else {
-        searchBox.style.display = 'block';
-      }
+      // A barra de pesquisa permanece visível em todas as abas
 
       renderMatches();
     }
@@ -1273,8 +1267,16 @@
       });
 
       // 4. Renderizar os cards de classificação por grupo
+      const searchVal = document.getElementById('search-input').value.toLowerCase();
+
       groupsList.forEach(g => {
         if (groupVal !== 'all' && groupVal !== g) return;
+
+        // Se houver busca por seleção, verificar se alguma equipe do grupo corresponde
+        if (searchVal) {
+          const hasMatchingTeam = groups[g].some(team => team.name.toLowerCase().includes(searchVal));
+          if (!hasMatchingTeam) return; // Oculta o grupo se nenhuma equipe bater com a busca
+        }
 
         const card = document.createElement('div');
         card.className = 'standings-card';
@@ -1285,8 +1287,11 @@
         allTeams.forEach((team, idx) => {
           const rank = idx + 1;
           const flagUrl = `https://flagcdn.com/w40/${team.code}.png`;
+          const isMatching = searchVal && team.name.toLowerCase().includes(searchVal);
+          const highlightStyle = isMatching ? 'style="background-color: rgba(99, 102, 241, 0.25); border-left: 3px solid var(--primary);"' : '';
+          
           rowsHTML += `
-            <tr class="standing-row">
+            <tr class="standing-row" ${highlightStyle}>
               <td class="standing-rank">${rank}</td>
               <td class="standing-team">
                 <div class="standing-team-info">
