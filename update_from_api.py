@@ -104,35 +104,29 @@ def parse_js_upcoming_matches(content):
     if not match:
         return []
     block = match.group(1)
-    objs = re.findall(r"\{([\s\S]*?)\}", block)
+    
+    pattern = re.compile(
+        r'\{\s*id:\s*"([^"]+)"'
+        r'[\s\S]*?date:\s*"([^"]+)"'
+        r'[\s\S]*?time:\s*"([^"]+)"'
+        r'[\s\S]*?group:\s*"([^"]+)"'
+        r'[\s\S]*?teamA:\s*\{\s*name:\s*"([^"]+)"(?:,\s*code:\s*"([^"]*)")?\s*\}'
+        r'[\s\S]*?teamB:\s*\{\s*name:\s*"([^"]+)"(?:,\s*code:\s*"([^"]*)")?\s*\}'
+        r'[\s\S]*?venue:\s*"([^"]+)"'
+        r'[\s\S]*?\}'
+    )
+    
     parsed = []
-    for obj in objs:
-        id_m = re.search(r'id:\s*"([^"]+)"', obj)
-        date_m = re.search(r'date:\s*"([^"]+)"', obj)
-        time_m = re.search(r'time:\s*"([^"]+)"', obj)
-        group_m = re.search(r'group:\s*"([^"]+)"', obj)
-        teamA_name_m = re.search(r'teamA:\s*\{\s*name:\s*"([^"]+)"', obj)
-        teamA_code_m = re.search(r'teamA:\s*\{\s*name:\s*"[^"]+",\s*code:\s*"([^"]+)"', obj)
-        teamB_name_m = re.search(r'teamB:\s*\{\s*name:\s*"([^"]+)"', obj)
-        teamB_code_m = re.search(r'teamB:\s*\{\s*name:\s*"[^"]+",\s*code:\s*"([^"]+)"', obj)
-        venue_m = re.search(r'venue:\s*"([^"]+)"', obj)
-        
-        if id_m and date_m and teamA_name_m and teamB_name_m:
-            parsed.append({
-                "id": id_m.group(1),
-                "date": date_m.group(1),
-                "time": time_m.group(1) if time_m else "",
-                "group": group_m.group(1) if group_m else "",
-                "teamA": {
-                    "name": teamA_name_m.group(1),
-                    "code": teamA_code_m.group(1) if teamA_code_m else ""
-                },
-                "teamB": {
-                    "name": teamB_name_m.group(1),
-                    "code": teamB_code_m.group(1) if teamB_code_m else ""
-                },
-                "venue": venue_m.group(1) if venue_m else ""
-            })
+    for m in pattern.finditer(block):
+        parsed.append({
+            "id": m.group(1),
+            "date": m.group(2),
+            "time": m.group(3),
+            "group": m.group(4),
+            "teamA": {"name": m.group(5), "code": m.group(6) or ""},
+            "teamB": {"name": m.group(7), "code": m.group(8) or ""},
+            "venue": m.group(9)
+        })
     return parsed
 
 def main():
