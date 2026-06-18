@@ -164,7 +164,7 @@ def main():
     except Exception as e:
         print(f"urllib falhou ({e}), tentando curl...")
         try:
-            result = subprocess.run(["curl", "-s", "-k", url], capture_output=True, text=True, check=True)
+            result = subprocess.run(["curl", "-s", "-k", url], capture_output=True, text=True, encoding="utf-8", check=True)
             api_data = json.loads(result.stdout)
         except Exception as curl_err:
             print(f"Erro ao acessar a API com curl: {curl_err}")

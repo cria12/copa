@@ -767,18 +767,33 @@ A Colômbia estreou no Grupo K com uma vitória sólida por 3 a 1 sobre a estrea
 ## 🌟 Destaques e Curiosidades
 - A Colômbia assume a liderança do Grupo K com 3 pontos, seguida por Portugal e RD Congo que empataram.
 `
+    },
+    {
+      id: "20260618_south_africa_czechia",
+      date: "2026-06-18",
+      group: "A",
+      teamA: { name: "África do Sul", code: "za" },
+      teamB: { name: "Tchéquia", code: "cz" },
+      score: "1-1",
+      venue: "Atlanta Stadium (Atlanta)",
+      summary_md: `# ⚽ Resumo do Jogo: África do Sul 1 - 1 Tchéquia
+**Data:** 18 de Junho de 2026  
+**Estádio:** Atlanta Stadium (Atlanta)  
+**Fase:** Fase de Grupos - Grupo A
+
+## 📝 Visão Geral do Jogo
+A partida entre **África do Sul** e **Tchéquia** terminou com o placar final de **1 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026.
+
+## ⚽ Marcadores e Lances Importantes
+- **Gols de África do Sul**: Nenhum
+- **Gols de Tchéquia**: ‫mikhal Sadilk 6'
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
-    {
-      id: "20260618_south_africa_czechia",
-      date: "18/06/2026",
-      time: "18:00",
-      group: "A",
-      teamA: { name: "África do Sul", code: "za" },
-            teamB: { name: "Tchéquia", code: "cz" },
-      venue: "Atlanta Stadium (Atlanta)"
-    },
     {
       id: "20260618_switzerland_bosnia",
       date: "18/06/2026",
