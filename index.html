@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏆 Painel Copa do Mundo FIFA 2026</title>
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Marked.js CDN para conversão de Markdown para HTML -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Estilos CSS Incorporados de Alta Performance e Estética Premium -->
+  <style>
+    :root {
+      --bg-gradient: radial-gradient(circle at 50% 0%, #1e1b4b 0%, #09090b 100%);
+      --glass-bg: rgba(255, 255, 255, 0.03);
+      --glass-border: rgba(255, 255, 255, 0.07);
+      --glass-highlight: rgba(255, 255, 255, 0.15);
+      --primary: #6366f1;
+      --primary-glow: rgba(99, 102, 241, 0.4);
+      --success: #10b981;
+      --success-glow: rgba(16, 185, 129, 0.3);
+      --text: #f4f4f5;
+      --text-muted: #a1a1aa;
+      --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scrollbar-width: thin;
+      scrollbar-color: var(--primary) transparent;
+    }
+
+    /* Scrollbars customizadas */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--primary);
+      border-radius: 10px;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding-bottom: 50px;
+      line-height: 1.5;
+    }
+
+    /* Efeitos de orbes brilhantes no fundo */
+    .glow-orb-1 {
+      position: absolute;
+      top: -10%;
+      left: 10%;
+      width: 40vw;
+      height: 40vw;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .glow-orb-2 {
+      position: absolute;
+      top: 40%;
+      right: -10%;
+      width: 50vw;
+      height: 50vw;
+      background: radial-gradient(circle, rgba(236, 72, 153, 0.08) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 10;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px 20px;
+      text-align: center;
+    }
+
+    .header-logo {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid var(--primary);
+      border-radius: 20px;
+      margin-bottom: 15px;
+      box-shadow: 0 0 20px var(--primary-glow);
+      color: var(--primary);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px;
+      letter-spacing: -0.03em;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 0 auto 15px;
+    }
+
+    .badge-updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      padding: 6px 16px;
+      border-radius: 30px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      backdrop-filter: blur(10px);
+    }
+
+    .badge-updated .dot {
+      width: 8px;
+      height: 8px;
+      background: var(--success);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--success-glow);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
+    main {
+      position: relative;
+      z-index: 10;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Controles do painel (Abas, Filtros, Busca) */
+    .controls-panel {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 24px;
+      padding: 20px;
+      margin-bottom: 30px;
+      backdrop-filter: blur(20px);
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .tabs-wrapper {
+      display: flex;
+      border-bottom: 1px solid var(--glass-border);
+      gap: 30px;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 12px 4px;
+      cursor: pointer;
+      position: relative;
+      transition: color 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tab-btn:hover {
+      color: var(--text);
+    }
+
+    .tab-btn.active {
+      color: var(--primary);
+    }
+
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--primary);
+      border-radius: 10px;
+      box-shadow: 0 0 10px var(--primary-glow);
+    }
+
+    .filters-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .search-box {
+      position: relative;
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--glass-border);
+      border-radius: 14px;
+      padding: 12px 16px 12px 42px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.95rem;
+      transition: all 0.3s;
+    }
+
+    .search-box input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 10px rgba(99, 102, 241, 0.2);
+    }
+
+    .search-box i {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .select-box {
+      position: relative;
+    }
+
+    .select-box select {
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--glass-border);
+      border-radius: 14px;
+      padding: 12px 36px 12px 16px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.95rem;
+      cursor: pointer;
+      appearance: none;
+      transition: all 0.3s;
+    }
+
+    .select-box select:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .select-box::after {
+      content: '▼';
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+
+    /* Grids de Partidas */
+    .matches-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+      min-height: 200px;
+    }
+
+    /* Cartão de Jogo Concluído */
+    .match-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 20px;
+      backdrop-filter: blur(15px);
+      box-shadow: var(--card-shadow);
+      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .match-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, transparent 100%);
+      pointer-events: none;
+      transition: opacity 0.3s;
+      opacity: 0;
+    }
+
+    .match-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(99, 102, 241, 0.3);
+      box-shadow: 0 12px 40px 0 rgba(99, 102, 241, 0.15);
+    }
+
+    .match-card:hover::before {
+      opacity: 1;
+    }
+
+    .match-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .group-badge {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      padding: 4px 10px;
+      border-radius: 8px;
+      color: var(--text);
+    }
+
+    .match-body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .team-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 38%;
+      text-align: center;
+    }
+
+    .flag-container {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      margin-bottom: 8px;
+      background: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s;
+    }
+
+    .match-card:hover .flag-container {
+      transform: scale(1.08);
+    }
+
+    .flag-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .team-name {
+      font-size: 1rem;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+
+    .score-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 24%;
+    }
+
+    .score-display {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: 2px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 6px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--glass-border);
+    }
+
+    .match-time {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--primary);
+      background: rgba(99, 102, 241, 0.1);
+      padding: 4px 10px;
+      border-radius: 8px;
+      border: 1px solid rgba(99, 102, 241, 0.2);
+    }
+
+    .match-footer {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-top: 1px solid var(--glass-border);
+      padding-top: 15px;
+    }
+
+    .venue-info {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-summary {
+      width: 100%;
+      background: linear-gradient(135deg, var(--primary) 0%, #4f46e5 100%);
+      border: none;
+      color: white;
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 10px 16px;
+      border-radius: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+    }
+
+    .btn-summary:hover {
+      box-shadow: 0 6px 20px var(--primary-glow);
+      filter: brightness(1.1);
+    }
+
+    /* Estado Vazio */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 20px;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .empty-state i {
+      color: var(--primary);
+    }
+
+    /* Modal de Resumo do Jogo */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(15px);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-container {
+      background: rgba(15, 12, 30, 0.95);
+      border: 1px solid var(--glass-border);
+      border-radius: 28px;
+      width: 90%;
+      max-width: 750px;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+      transform: scale(0.9) translateY(20px);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .modal-overlay.active .modal-container {
+      transform: scale(1) translateY(0);
+    }
+
+    .modal-header {
+      padding: 24px;
+      border-bottom: 1px solid var(--glass-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.01);
+    }
+
+    .modal-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    .btn-close-modal {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .btn-close-modal:hover {
+      background: rgba(239, 68, 68, 0.2);
+      border-color: rgb(239, 68, 68);
+      color: rgb(239, 68, 68);
+    }
+
+    .modal-content {
+      padding: 24px;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    /* Estilização interna do Markdown renderizado no modal */
+    .summary-rendered-content {
+      font-size: 0.98rem;
+      color: #e4e4e7;
+    }
+
+    .summary-rendered-content h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 15px;
+      background: linear-gradient(135deg, #fff 0%, var(--primary) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .summary-rendered-content h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: white;
+      margin-top: 25px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--glass-border);
+      padding-bottom: 6px;
+    }
+
+    .summary-rendered-content p {
+      margin-bottom: 15px;
+      color: #d4d4d8;
+      line-height: 1.6;
+    }
+
+    .summary-rendered-content ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .summary-rendered-content li {
+      margin-bottom: 8px;
+    }
+
+    .summary-rendered-content strong {
+      color: white;
+      font-weight: 600;
+    }
+
+    /* Estilos para a Classificação (Pontos) */
+    .standings-card {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 20px;
+      backdrop-filter: blur(15px);
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      transition: all 0.3s;
+    }
+    .standings-card:hover {
+      border-color: rgba(99, 102, 241, 0.3);
+      box-shadow: 0 12px 40px 0 rgba(99, 102, 241, 0.15);
+    }
+    .standings-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      border-bottom: 1px solid var(--glass-border);
+      padding-bottom: 10px;
+    }
+    .standings-card-header h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: white;
+    }
+    .top3-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--primary);
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      padding: 3px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+    .standings-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .standings-table th {
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--glass-border);
+    }
+    .standing-row {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+      transition: background-color 0.2s;
+    }
+    .standing-row:last-child {
+      border-bottom: none;
+    }
+    .standing-row:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .standing-rank {
+      font-weight: 700;
+      color: var(--text-muted);
+      text-align: center;
+      padding: 12px 0;
+    }
+    .standing-team {
+      padding: 12px 0;
+    }
+    .standing-team-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .standing-flag {
+      width: 24px;
+      height: 18px;
+      object-fit: cover;
+      border-radius: 3px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .standing-name-link {
+      font-weight: 600;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+    .standing-name-link:hover {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    .standing-stat {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      padding: 12px 0;
+    }
+    .standing-points {
+      text-align: center;
+      font-weight: 700;
+      color: var(--text);
+      padding: 12px 0;
+    }
+
+    /* Timezone Switcher Premium CSS */
+    .timezone-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      padding: 6px 12px;
+      border-radius: 30px;
+      backdrop-filter: blur(10px);
+    }
+    .timezone-switcher-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+    .timezone-btn {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 4px 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+    .timezone-btn img {
+      width: 18px;
+      height: 12px;
+      border-radius: 2px;
+      object-fit: cover;
+    }
+    .timezone-btn:hover {
+      border-color: rgba(255, 255, 255, 0.2);
+      color: var(--text);
+    }
+    .timezone-btn.active {
+      background: rgba(99, 102, 241, 0.2);
+      border-color: var(--primary);
+      color: var(--text);
+      box-shadow: 0 0 10px var(--primary-glow);
+    }
+
+    /* Layout responsivo */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      .controls-panel {
+        padding: 15px;
+      }
+      .matches-grid {
+        grid-template-columns: 1fr;
+      }
+      .filters-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .select-box select {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="glow-orb-1"></div>
+  <div class="glow-orb-2"></div>
+
+  <header>
+    <div class="header-logo">
+      <i data-lucide="trophy" style="width: 32px; height: 32px;"></i>
+    </div>
+    <h1>Copa do Mundo 2026</h1>
+    <p>Painel inteligente de acompanhamento de jogos, estatísticas em tempo real e resumos pós-jogo.</p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 12px; margin-top: 15px;">
+      <div class="badge-updated" id="last-updated-badge">
+        <div class="dot"></div>
+        <span>Atualizando...</span>
+      </div>
+      <div class="timezone-switcher">
+        <span class="timezone-switcher-label">Fuso Horário:</span>
+        <button class="timezone-btn" id="tz-br" onclick="setTimezone('BR')" title="Horário de Brasília (BRT)">
+          <img src="https://flagcdn.com/w40/br.png" alt="Brasil">
+          <span>BRT</span>
+        </button>
+        <button class="timezone-btn" id="tz-pt" onclick="setTimezone('PT')" title="Horário de Portugal (WEST)">
+          <img src="https://flagcdn.com/w40/pt.png" alt="Portugal">
+          <span>WEST</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Painel de Controles -->
+    <div class="controls-panel">
+      <div class="tabs-wrapper">
+        <button class="tab-btn active" id="tab-completed" onclick="switchTab('completed')">
+          <i data-lucide="check-circle-2" style="width: 18px; height: 18px;"></i>
+          Jogos Concluídos
+        </button>
+        <button class="tab-btn" id="tab-upcoming" onclick="switchTab('upcoming')">
+          <i data-lucide="calendar" style="width: 18px; height: 18px;"></i>
+          Próximos Jogos
+        </button>
+        <button class="tab-btn" id="tab-standings" onclick="switchTab('standings')">
+          <i data-lucide="award" style="width: 18px; height: 18px;"></i>
+          Pontos
+        </button>
+      </div>
+
+      <div class="filters-wrapper">
+        <!-- Caixa de Busca -->
+        <div class="search-box">
+          <i data-lucide="search" style="width: 18px; height: 18px;"></i>
+          <input type="text" id="search-input" placeholder="Buscar por país ou estádio..." oninput="filterMatches()">
+        </div>
+
+        <!-- Filtro por Grupo -->
+        <div class="select-box">
+          <select id="group-filter" onchange="filterMatches()">
+            <option value="all">Todos os Grupos</option>
+            <option value="A">Grupo A</option>
+            <option value="B">Grupo B</option>
+            <option value="C">Grupo C</option>
+            <option value="D">Grupo D</option>
+            <option value="E">Grupo E</option>
+            <option value="F">Grupo F</option>
+            <option value="G">Grupo G</option>
+            <option value="H">Grupo H</option>
+            <option value="I">Grupo I</option>
+            <option value="J">Grupo J</option>
+            <option value="K">Grupo K</option>
+            <option value="L">Grupo L</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container das Partidas -->
+    <div class="matches-grid" id="matches-container">
+      <!-- Inserido dinamicamente via JS -->
+    </div>
+  </main>
+
+  <!-- Modal de Resumo -->
+  <div class="modal-overlay" id="summary-modal" onclick="closeModal(event)">
+    <div class="modal-container" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title" id="modal-game-title">Resumo do Jogo</div>
+        <button class="btn-close-modal" id="btn-close-modal" onclick="toggleModal(false)">
+          <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+        </button>
+      </div>
+      <div class="modal-content">
+        <div class="summary-rendered-content" id="modal-rendered-body">
+          <!-- Renderizado dinamicamente -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banco de dados portátil -->
+  <script src="data.js"></script>
+
+  <script>
+    let currentTab = 'completed';
+    let selectedTimezone = localStorage.getItem('selectedTimezone') || 'BR'; // Padrão: Horário de Brasília (BRT)
+
+    // Inicialização
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      updateLastUpdatedBadge();
+      updateTimezoneButtons();
+      renderMatches();
+    });
+
+    // Converte data/hora de Portugal (Lisboa, WEST, UTC+1) para Brasília (BRT, UTC-3)
+    function convertPTtoBR(dateStr, timeStr) {
+      const [day, month, year] = dateStr.split('/').map(Number);
+      const [hour, minute] = timeStr.split(':').map(Number);
+      
+      let newHour = hour - 4; // Diferença de 4 horas
+      let newDay = day;
+      let newMonth = month;
+      let newYear = year;
+      
+      if (newHour < 0) {
+        newHour += 24;
+        newDay -= 1;
+        
+        if (newDay === 0) {
+          if (month === 6) { // Se for Junho, volta para Maio (31 dias)
+            newMonth = 5;
+            newDay = 31;
+          } else if (month === 7) { // Se for Julho, volta para Junho (30 dias)
+            newMonth = 6;
+            newDay = 30;
+          } else {
+            const prevMonthDate = new Date(year, month - 1, 0);
+            newDay = prevMonthDate.getDate();
+            newMonth = month - 1;
+          }
+        }
+      }
+      
+      const paddedHour = String(newHour).padStart(2, '0');
+      const paddedMinute = String(minute).padStart(2, '0');
+      const paddedDay = String(newDay).padStart(2, '0');
+      const paddedMonth = String(newMonth).padStart(2, '0');
+      
+      return {
+        date: `${paddedDay}/${paddedMonth}/${newYear}`,
+        time: `${paddedHour}:${paddedMinute}`
+      };
+    }
+
+    // Formata a data de jogos concluídos (YYYY-MM-DD para DD/MM/YYYY)
+    function formatCompletedDate(dateStr) {
+      if (dateStr && dateStr.includes('-')) {
+        const [year, month, day] = dateStr.split('-');
+        return `${day}/${month}/${year}`;
+      }
+      return dateStr;
+    }
+
+    // Altera o fuso horário selecionado
+    function setTimezone(tz) {
+      selectedTimezone = tz;
+      localStorage.setItem('selectedTimezone', tz);
+      updateTimezoneButtons();
+      renderMatches();
+    }
+
+    // Atualiza o estado dos botões de fuso horário
+    function updateTimezoneButtons() {
+      const btnBr = document.getElementById('tz-br');
+      const btnPt = document.getElementById('tz-pt');
+      if (btnBr && btnPt) {
+        btnBr.classList.toggle('active', selectedTimezone === 'BR');
+        btnPt.classList.toggle('active', selectedTimezone === 'PT');
+      }
+    }
+
+    // Atualiza a badge de última verificação
+    function updateLastUpdatedBadge() {
+      const badge = document.querySelector('#last-updated-badge span');
+      if (typeof COPA_DATA !== 'undefined' && COPA_DATA.last_check) {
+        const date = new Date(COPA_DATA.last_check);
+        const formatedDate = date.toLocaleString('pt-BR', {
+          day: '2-digit',
+          month: '2-digit',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+        badge.textContent = `Última atualização: ${formatedDate}`;
+      } else {
+        badge.textContent = 'Modo Offline';
+      }
+    }
+
+    // Muda a aba atual
+    function switchTab(tab) {
+      currentTab = tab;
+      
+      document.getElementById('tab-completed').classList.toggle('active', tab === 'completed');
+      document.getElementById('tab-upcoming').classList.toggle('active', tab === 'upcoming');
+      document.getElementById('tab-standings').classList.toggle('active', tab === 'standings');
+      
+      // Limpa os filtros ao trocar de aba para melhor UX
+      document.getElementById('search-input').value = '';
+      document.getElementById('group-filter').value = 'all';
+
+      // Ocultar barra de pesquisa na aba de classificação/pontos
+      const searchBox = document.querySelector('.search-box');
+      if (tab === 'standings') {
+        searchBox.style.display = 'none';
+      } else {
+        searchBox.style.display = 'block';
+      }
+
+      renderMatches();
+    }
+
+    // Renderiza a lista de partidas baseada na aba e nos filtros
+    function renderMatches() {
+      const container = document.getElementById('matches-container');
+      container.innerHTML = '';
+
+      if (typeof COPA_DATA === 'undefined') {
+        renderEmptyState('Banco de dados não carregado. Verifique o arquivo data.js.');
+        return;
+      }
+
+      if (currentTab === 'standings') {
+        renderStandings();
+        return;
+      }
+
+      const searchVal = document.getElementById('search-input').value.toLowerCase();
+      const groupVal = document.getElementById('group-filter').value;
+
+      const listToUse = currentTab === 'completed' ? COPA_DATA.matches : COPA_DATA.upcoming_matches;
+      
+      const filtered = listToUse.filter(match => {
+        const matchesSearch = match.teamA.name.toLowerCase().includes(searchVal) ||
+                              match.teamB.name.toLowerCase().includes(searchVal) ||
+                              match.venue.toLowerCase().includes(searchVal);
+        const matchesGroup = groupVal === 'all' || match.group === groupVal;
+        return matchesSearch && matchesGroup;
+      });
+
+      if (filtered.length === 0) {
+        renderEmptyState('Nenhuma partida localizada para os critérios de busca.');
+        return;
+      }
+
+      // Ordenar: jogos concluídos de forma decrescente (mais recentes primeiro), próximos de forma crescente
+      if (currentTab === 'completed') {
+        filtered.sort((a, b) => b.id.localeCompare(a.id));
+      } else {
+        filtered.sort((a, b) => a.id.localeCompare(b.id));
+      }
+
+      filtered.forEach(match => {
+        const card = document.createElement('div');
+        card.className = 'match-card';
+        
+        // Mapeia e gera os links das bandeiras
+        const flagA = `https://flagcdn.com/w80/${match.teamA.code}.png`;
+        const flagB = `https://flagcdn.com/w80/${match.teamB.code}.png`;
+
+        let footerHTML = '';
+        if (currentTab === 'completed') {
+          footerHTML = `
+            <div class="match-footer">
+              <div class="venue-info">
+                <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+                <span>${match.venue}</span>
+              </div>
+              <button class="btn-summary" id="btn-${match.id}" onclick="openSummary('${match.id}')">
+                <i data-lucide="file-text" style="width: 16px; height: 16px;"></i>
+                Ver Resumo do Jogo
+              </button>
+            </div>
+          `;
+        } else {
+          footerHTML = `
+            <div class="match-footer">
+              <div class="venue-info">
+                <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+                <span>${match.venue}</span>
+              </div>
+            </div>
+          `;
+        }
+
+        let displayDate = match.date;
+        let displayTime = match.time;
+        
+        if (currentTab === 'upcoming') {
+          if (selectedTimezone === 'BR') {
+            const converted = convertPTtoBR(match.date, match.time);
+            displayDate = converted.date;
+            displayTime = converted.time;
+          }
+        } else {
+          displayDate = formatCompletedDate(match.date);
+        }
+
+        const scoreHTML = currentTab === 'completed' 
+          ? `<div class="score-display">${match.score}</div>` 
+          : `<div class="match-time">${displayTime} <span style="font-size: 0.7rem; opacity: 0.8; font-weight: 500; margin-left: 2px;">${selectedTimezone === 'BR' ? 'BRT' : 'WEST'}</span></div>`;
+
+        card.innerHTML = `
+          <div class="match-header">
+            <span>${displayDate}</span>
+            <span class="group-badge">Grupo ${match.group}</span>
+          </div>
+          <div class="match-body">
+            <div class="team-col">
+              <div class="flag-container">
+                <img src="${flagA}" alt="Bandeira do ${match.teamA.name}" onerror="this.src='https://flagcdn.com/w80/un.png'">
+              </div>
+              <div class="team-name">${match.teamA.name}</div>
+            </div>
+            <div class="score-col">
+              ${scoreHTML}
+            </div>
+            <div class="team-col">
+              <div class="flag-container">
+                <img src="${flagB}" alt="Bandeira do ${match.teamB.name}" onerror="this.src='https://flagcdn.com/w80/un.png'">
+              </div>
+              <div class="team-name">${match.teamB.name}</div>
+            </div>
+          </div>
+          ${footerHTML}
+        `;
+
+        container.appendChild(card);
+      });
+
+      // Recria os ícones do Lucide nos novos elementos inseridos
+      lucide.createIcons();
+    }
+
+    // Filtra partidas baseado nas entradas de busca
+    function filterMatches() {
+      renderMatches();
+    }
+
+    // Exibe tela vazia de resultados
+    function renderEmptyState(message) {
+      const container = document.getElementById('matches-container');
+      container.innerHTML = `
+        <div class="empty-state">
+          <i data-lucide="alert-circle" style="width: 48px; height: 48px;"></i>
+          <p>${message}</p>
+        </div>
+      `;
+      lucide.createIcons();
+    }
+
+    // Abre o modal de resumo e carrega o Markdown inlined
+    function openSummary(matchId) {
+      const match = COPA_DATA.matches.find(m => m.id === matchId);
+      if (!match) return;
+
+      const titleElement = document.getElementById('modal-game-title');
+      const bodyElement = document.getElementById('modal-rendered-body');
+
+      titleElement.textContent = `Resumo da Partida: ${match.teamA.name} vs. ${match.teamB.name}`;
+      
+      // Converte o Markdown inlined para HTML usando marked.js
+      if (match.summary_md) {
+        bodyElement.innerHTML = marked.parse(match.summary_md);
+      } else {
+        bodyElement.innerHTML = '<p>Nenhum resumo em markdown foi encontrado para esta partida.</p>';
+      }
+
+      toggleModal(true);
+    }
+
+    // Liga/desliga o modal
+    function toggleModal(show) {
+      const modal = document.getElementById('summary-modal');
+      if (show) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden'; // impede scroll de fundo
+      } else {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    // Fecha o modal se o clique for fora dele
+    function closeModal(event) {
+      if (event.target.id === 'summary-modal') {
+        toggleModal(false);
+      }
+    }
+
+    // Renderiza a classificação (Pontos) dos 3 melhores de cada grupo
+    function renderStandings() {
+      const container = document.getElementById('matches-container');
+      container.innerHTML = '';
+
+      const groupVal = document.getElementById('group-filter').value;
+
+      // 1. Inicializar tabela de pontos para todas as 48 equipes
+      const standings = {};
+      COPA_DATA.teams_list.forEach(t => {
+        standings[t.name] = {
+          name: t.name,
+          code: t.code,
+          group: t.group,
+          points: 0,
+          played: 0,
+          gf: 0,
+          gc: 0,
+          sg: 0
+        };
+      });
+
+      // 2. Calcular estatísticas de partidas concluídas
+      COPA_DATA.matches.forEach(m => {
+        const teamAName = m.teamA.name;
+        const teamBName = m.teamB.name;
+        
+        const parts = m.score.split('-').map(x => parseInt(x.trim()));
+        if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+          const scoreA = parts[0];
+          const scoreB = parts[1];
+          
+          if (standings[teamAName] && standings[teamBName]) {
+            const tA = standings[teamAName];
+            const tB = standings[teamBName];
+            
+            tA.played += 1;
+            tB.played += 1;
+            tA.gf += scoreA;
+            tA.gc += scoreB;
+            tB.gf += scoreB;
+            tB.gc += scoreA;
+            tA.sg = tA.gf - tA.gc;
+            tB.sg = tB.gf - tB.gc;
+            
+            if (scoreA > scoreB) {
+              tA.points += 3;
+            } else if (scoreA < scoreB) {
+              tB.points += 3;
+            } else {
+              tA.points += 1;
+              tB.points += 1;
+            }
+          }
+        }
+      });
+
+      // 3. Agrupar por grupo
+      const groups = {};
+      const groupsList = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"];
+      groupsList.forEach(g => {
+        groups[g] = [];
+      });
+
+      Object.values(standings).forEach(t => {
+        if (groups[t.group]) {
+          groups[t.group].push(t);
+        }
+      });
+
+      // Ordenar as equipes de cada grupo e filtrar os 3 melhores
+      groupsList.forEach(g => {
+        groups[g].sort((a, b) => {
+          if (b.points !== a.points) return b.points - a.points;
+          if (b.sg !== a.sg) return b.sg - a.sg;
+          if (b.gf !== a.gf) return b.gf - a.gf;
+          return a.name.localeCompare(b.name);
+        });
+      });
+
+      // 4. Renderizar os cards de classificação por grupo
+      groupsList.forEach(g => {
+        if (groupVal !== 'all' && groupVal !== g) return;
+
+        const card = document.createElement('div');
+        card.className = 'standings-card';
+        
+        let rowsHTML = '';
+        const top3 = groups[g].slice(0, 3);
+        
+        top3.forEach((team, idx) => {
+          const rank = idx + 1;
+          const flagUrl = `https://flagcdn.com/w40/${team.code}.png`;
+          rowsHTML += `
+            <tr class="standing-row">
+              <td class="standing-rank">${rank}</td>
+              <td class="standing-team">
+                <div class="standing-team-info">
+                  <img class="standing-flag" src="${flagUrl}" alt="${team.name}" onerror="this.src='https://flagcdn.com/w40/un.png'">
+                  <span class="standing-name-link" onclick="openCountryHistory('${team.code}', '${team.name}')">${team.name}</span>
+                </div>
+              </td>
+              <td class="standing-stat">${team.played}</td>
+              <td class="standing-stat">${team.sg}</td>
+              <td class="standing-points">${team.points}</td>
+            </tr>
+          `;
+        });
+
+        card.innerHTML = `
+          <div class="standings-card-header">
+            <h3>Grupo ${g}</h3>
+            <span class="top3-badge">Top 3</span>
+          </div>
+          <table class="standings-table">
+            <thead>
+              <tr>
+                <th style="width: 10%">#</th>
+                <th style="width: 50%; text-align: left;">País</th>
+                <th style="width: 13%">J</th>
+                <th style="width: 13%">SG</th>
+                <th style="width: 14%">Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rowsHTML}
+            </tbody>
+          </table>
+        `;
+
+        container.appendChild(card);
+      });
+      
+      lucide.createIcons();
+    }
+
+    // Abre o modal de história do país
+    function openCountryHistory(code, name) {
+      if (typeof COPA_DATA === 'undefined' || !COPA_DATA.country_histories) return;
+
+      const historyText = COPA_DATA.country_histories[code];
+      const titleElement = document.getElementById('modal-game-title');
+      const bodyElement = document.getElementById('modal-rendered-body');
+
+      titleElement.textContent = `História da Seleção: ${name}`;
+      
+      const flagUrl = `https://flagcdn.com/w256/${code}.png`;
+
+      bodyElement.innerHTML = `
+        <div style="text-align: center; margin-bottom: 24px;">
+          <img src="${flagUrl}" alt="Bandeira de ${name}" style="border: 2px solid var(--glass-border); border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.5); max-width: 180px; height: auto;" onerror="this.src='https://flagcdn.com/w256/un.png'">
+          <h2 style="margin-top: 15px; font-weight: 700; color: white;">${name}</h2>
+        </div>
+        <div style="line-height: 1.7; font-size: 1.05rem; color: #e4e4e7;">
+          <p>${historyText || "A história desta nação ainda não foi cadastrada no banco de dados portátil."}</p>
+        </div>
+      `;
+
+      toggleModal(true);
+    }
+  </script>
+</body>
+</html>
