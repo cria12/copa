@@ -225,6 +225,33 @@
       ],
       "score": "1-1",
       "summary_file": "partidas/20260618_south_africa_czechia.md"
+    },
+    "20260618_switzerland_bosnia": {
+      "date": "2026-06-18",
+      "teams": [
+        "Suíça",
+        "Bósnia e Herzegovina"
+      ],
+      "score": "4-1",
+      "summary_file": "partidas/20260618_switzerland_bosnia.md"
+    },
+    "20260618_canada_qatar": {
+      "date": "2026-06-18",
+      "teams": [
+        "Canadá",
+        "Catar"
+      ],
+      "score": "6-0",
+      "summary_file": "partidas/20260618_canada_qatar.md"
+    },
+    "20260618_mexico_south_korea": {
+      "date": "2026-06-18",
+      "teams": [
+        "México",
+        "Coreia do Sul"
+      ],
+      "score": "1-0",
+      "summary_file": "partidas/20260618_mexico_south_korea.md"
     }
   }
 }

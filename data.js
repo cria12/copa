@@ -791,36 +791,104 @@ A partida entre **África do Sul** e **Tchéquia** terminou com o placar final d
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
-    }
-  ],
-  upcoming_matches: [
+    },
     {
       id: "20260618_switzerland_bosnia",
-      date: "18/06/2026",
-      time: "21:00",
+      date: "2026-06-18",
       group: "B",
       teamA: { name: "Suíça", code: "ch" },
-            teamB: { name: "Bósnia e Herzegovina", code: "ba" },
-      venue: "Miami Stadium (Miami)"
+      teamB: { name: "Bósnia e Herzegovina", code: "ba" },
+      score: "4-1",
+      venue: "Miami Stadium (Miami)",
+      summary_md: `# ⚽ Resumo do Jogo: Suíça 4 - 1 Bósnia e Herzegovina
+**Data:** 18 de Junho de 2026  
+**Estádio:** SoFi Stadium (Los Angeles, CA)  
+**Fase:** Fase de Grupos - Grupo B
+
+## 📝 Visão Geral do Jogo
+Partida que parecia encaminhada para um empate sem gols, mas explodiu nos 20 minutos finais. A **Suíça** dominou de forma avassaladora após a expulsão do zagueiro bósnio Tarik Muharemovic aos 80 minutos, marcando 4 gols em um intervalo impressionante.
+
+## ⚽ Marcadores e Lances Importantes
+- **Gols da Suíça**: Johan Manzambi (74', 90'), Rubén Vargas (84'), Granit Xhaka (90+7', pênalti)
+- **Gols da Bósnia**: Ermin Mahmić (90+3')
+
+## 🔑 Momentos Decisivos
+- O jogo permaneceu 0-0 até os 74 minutos, com a Bósnia se defendendo bem.
+- **Manzambi** abriu o placar aos 74' com um chute colocado de fora da área.
+- Aos 80', **cartão vermelho** para Tarik Muharemovic da Bósnia, mudando completamente o panorama do jogo.
+- Rubén Vargas ampliou aos 84' com uma finalização rasteira.
+- Mahmić descontou para a Bósnia aos 90+3', mas Manzambi e Xhaka (de pênalti) fecharam a goleada nos acréscimos.
+- Com a vitória, a Suíça somou 4 pontos no Grupo B e se aproximou da classificação.
+
+---
+*Atualizado automaticamente via Copa Bot.*
+`
     },
     {
       id: "20260618_canada_qatar",
-      date: "18/06/2026",
-      time: "00:00",
+      date: "2026-06-18",
       group: "B",
       teamA: { name: "Canadá", code: "ca" },
-            teamB: { name: "Catar", code: "qa" },
-      venue: "BC Place (Vancouver)"
+      teamB: { name: "Catar", code: "qa" },
+      score: "6-0",
+      venue: "BC Place (Vancouver)",
+      summary_md: `# ⚽ Resumo do Jogo: Canadá 6 - 0 Catar
+**Data:** 18 de Junho de 2026  
+**Estádio:** BC Place (Vancouver)  
+**Fase:** Fase de Grupos - Grupo B
+
+## 📝 Visão Geral do Jogo
+Uma noite histórica para o futebol canadense! O **Canadá** aplicou uma goleada devastadora de **6 a 0** sobre o **Catar**, conquistando sua primeira vitória em Copas do Mundo com uma exibição ofensiva brilhante. Jonathan David foi o grande destaque com um hat-trick memorável.
+
+## ⚽ Marcadores e Lances Importantes
+- **Gols do Canadá**: Cyle Larin (16'), Jonathan David (29', 45+3', 90+2'), Nathan Saliba (64'), Mohamed Manai (75', gol contra)
+- **Gols do Catar**: Nenhum
+
+## 🔑 Momentos Decisivos
+- Cyle Larin abriu o placar cedo aos 16' com um cabeceio certeiro.
+- **Jonathan David** brilhou com um hat-trick espetacular, incluindo gols aos 29' e 45+3' no primeiro tempo.
+- Nathan Saliba fez o quinto aos 64' em uma jogada coletiva brilhante.
+- Mohamed Manai marcou contra aos 75', aumentando a vantagem canadense.
+- David completou seu hat-trick no fim (90+2') com um chute de primeira.
+- A torcida no BC Place viveu uma noite de festa inesquecível, celebrando a maior goleada do Canadá em Copas.
+
+---
+*Atualizado automaticamente via Copa Bot.*
+`
     },
     {
       id: "20260618_mexico_south_korea",
-      date: "18/06/2026",
-      time: "03:00",
+      date: "2026-06-18",
       group: "A",
       teamA: { name: "México", code: "mx" },
-            teamB: { name: "Coreia do Sul", code: "kr" },
-      venue: "Estadio Azteca (Cidade do México)"
-    },
+      teamB: { name: "Coreia do Sul", code: "kr" },
+      score: "1-0",
+      venue: "Estadio Azteca (Cidade do México)",
+      summary_md: `# ⚽ Resumo do Jogo: México 1 - 0 Coreia do Sul
+**Data:** 18 de Junho de 2026  
+**Estádio:** Estadio Azteca (Cidade do México)  
+**Fase:** Fase de Grupos - Grupo A
+
+## 📝 Visão Geral do Jogo
+Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Coreia do Sul** por **1 a 0** com um gol de Luis Romo no segundo tempo. A vitória garantiu a classificação antecipada do México para as oitavas de final da Copa do Mundo.
+
+## ⚽ Marcadores e Lances Importantes
+- **Gols do México**: Luis Romo (50')
+- **Gols da Coreia do Sul**: Nenhum
+
+## 🔑 Momentos Decisivos
+- O primeiro tempo foi equilibrado, com ambas as equipes criando chances, mas sem conseguir abrir o placar.
+- Aos 50 minutos, **Luis Romo** aproveitou um erro do goleiro sul-coreano Kim Seung-gyu para marcar o único gol da partida.
+- A Coreia do Sul pressionou em busca do empate nos minutos finais, mas a defesa mexicana se manteve firme.
+- Com 6 pontos em dois jogos (vitórias contra África do Sul e Coreia do Sul), o México se classificou como primeiro do Grupo A com uma rodada de antecedência.
+- A torcida no Azteca celebrou com grande entusiasmo a classificação dos anfitriões.
+
+---
+*Atualizado automaticamente via Copa Bot.*
+`
+    }
+  ],
+  upcoming_matches: [
     {
       id: "20260619_scotland_morocco",
       date: "19/06/2026",

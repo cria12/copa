@@ -202,7 +202,11 @@ def rebuild_data_js(base_dir, current_date):
         "20260616_france_senegal": "MetLife Stadium (New York/New Jersey)",
         "20260616_norway_iraq": "Gillette Stadium (Boston)",
         "20260616_argentina_algeria": "Kansas City Stadium (Kansas City)",
-        "20260616_austria_jordan": "San Francisco Stadium (Santa Clara)"
+        "20260616_austria_jordan": "San Francisco Stadium (Santa Clara)",
+        "20260618_south_africa_czechia": "Atlanta Stadium (Atlanta)",
+        "20260618_switzerland_bosnia": "SoFi Stadium (Los Angeles)",
+        "20260618_canada_qatar": "BC Place (Vancouver)",
+        "20260618_mexico_south_korea": "Estadio Azteca (Cidade do México)"
     }
     
     # Identificar grupo a partir do ID ou de dados anteriores
@@ -216,7 +220,9 @@ def rebuild_data_js(base_dir, current_date):
         "20260615_spain_cape_verde": "H", "20260615_belgium_egypt": "G",
         "20260615_saudi_arabia_uruguay": "H", "20260615_iran_new_zealand": "G",
         "20260616_france_senegal": "I", "20260616_norway_iraq": "I",
-        "20260616_argentina_algeria": "J", "20260616_austria_jordan": "J"
+        "20260616_argentina_algeria": "J", "20260616_austria_jordan": "J",
+        "20260618_south_africa_czechia": "A", "20260618_switzerland_bosnia": "B",
+        "20260618_canada_qatar": "B", "20260618_mexico_south_korea": "A"
     }
 
     # Alimentar dinamicamente a partir do cronograma de próximos jogos

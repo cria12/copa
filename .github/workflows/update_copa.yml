@@ -2,7 +2,7 @@ name: Atualização Copa 2026
 
 on:
   schedule:
-    - cron: '0 * * * *' # Executa a cada 1 hora
+    - cron: '0 */5 * * *' # Executa a cada 5 horas
   workflow_dispatch: # Permite execução manual pelo painel do GitHub
 
 permissions:
