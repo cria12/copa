@@ -106,8 +106,8 @@ def rebuild_data_js(base_dir, current_date):
         # Matchday 2 - 19 de Junho (Grupos C, D)
         {"id": "20260619_usa_australia", "date": "19/06/2026", "time": "20:00", "group": "D", "teamA": {"name": "Estados Unidos", "code": "us"}, "teamB": {"name": "Austrália", "code": "au"}, "venue": "SoFi Stadium (Los Angeles)"},
         {"id": "20260619_scotland_morocco", "date": "19/06/2026", "time": "23:00", "group": "C", "teamA": {"name": "Escócia", "code": "gb-sct"}, "teamB": {"name": "Marrocos", "code": "ma"}, "venue": "Gillette Stadium (Boston)"},
-        {"id": "20260619_brazil_haiti", "date": "20/06/2026", "time": "02:00", "group": "C", "teamA": {"name": "Brasil", "code": "br"}, "teamB": {"name": "Haiti", "code": "ht"}, "venue": "MetLife Stadium (New York/New Jersey)"},
-        {"id": "20260619_paraguay_turkiye", "date": "20/06/2026", "time": "02:00", "group": "D", "teamA": {"name": "Paraguai", "code": "py"}, "teamB": {"name": "Turquia", "code": "tr"}, "venue": "Dallas Stadium (Dallas)"},
+        {"id": "20260619_brazil_haiti", "date": "20/06/2026", "time": "01:30", "group": "C", "teamA": {"name": "Brasil", "code": "br"}, "teamB": {"name": "Haiti", "code": "ht"}, "venue": "MetLife Stadium (New York/New Jersey)"},
+        {"id": "20260619_paraguay_turkiye", "date": "20/06/2026", "time": "04:00", "group": "D", "teamA": {"name": "Paraguai", "code": "py"}, "teamB": {"name": "Turquia", "code": "tr"}, "venue": "Dallas Stadium (Dallas)"},
         
         # Matchday 2 - 20 de Junho (Grupos E, F)
         {"id": "20260620_germany_ivorycoast", "date": "20/06/2026", "time": "18:00", "group": "E", "teamA": {"name": "Alemanha", "code": "de"}, "teamB": {"name": "Costa do Marfim", "code": "ci"}, "venue": "Houston Stadium (Houston)"},

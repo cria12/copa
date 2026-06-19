@@ -809,13 +809,13 @@
     <div style="display: flex; justify-content: center; align-items: center; margin-top: 15px;">
       <div class="timezone-switcher">
         <span class="timezone-switcher-label">Fuso Horário:</span>
-        <button class="timezone-btn" id="tz-br" onclick="setTimezone('BR')" title="Horário de Brasília (BRT)">
+        <button class="timezone-btn" id="tz-br" onclick="setTimezone('BR')" title="Horário de Brasília">
           <img src="https://flagcdn.com/w40/br.png" alt="Brasil">
-          <span>BRT</span>
+          <span>Horário de Brasília</span>
         </button>
-        <button class="timezone-btn" id="tz-pt" onclick="setTimezone('PT')" title="Horário de Portugal (WEST)">
+        <button class="timezone-btn" id="tz-pt" onclick="setTimezone('PT')" title="Lisbon Time">
           <img src="https://flagcdn.com/w40/pt.png" alt="Portugal">
-          <span>WEST</span>
+          <span>Lisbon Time</span>
         </button>
       </div>
     </div>
@@ -1096,7 +1096,7 @@
 
         const scoreHTML = currentTab === 'completed' 
           ? `<div class="score-display">${match.score}</div>` 
-          : `<div class="match-time">${displayTime} <span style="font-size: 0.7rem; opacity: 0.8; font-weight: 500; margin-left: 2px;">${selectedTimezone === 'BR' ? 'BRT' : 'WEST'}</span></div>`;
+          : `<div class="match-time">${displayTime} <span style="font-size: 0.7rem; opacity: 0.8; font-weight: 500; margin-left: 2px;">${selectedTimezone === 'BR' ? 'Brasília' : 'Lisboa'}</span></div>`;
 
         card.innerHTML = `
           <div class="match-header">

@@ -910,7 +910,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260619_brazil_haiti",
       date: "20/06/2026",
-      time: "02:00",
+      time: "01:30",
       group: "C",
       teamA: { name: "Brasil", code: "br" },
             teamB: { name: "Haiti", code: "ht" },
@@ -919,7 +919,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260619_paraguay_turkiye",
       date: "20/06/2026",
-      time: "02:00",
+      time: "04:00",
       group: "D",
       teamA: { name: "Paraguai", code: "py" },
             teamB: { name: "Turquia", code: "tr" },
