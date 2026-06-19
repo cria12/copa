@@ -799,7 +799,7 @@ A partida entre **África do Sul** e **Tchéquia** terminou com o placar final d
       teamA: { name: "Suíça", code: "ch" },
       teamB: { name: "Bósnia e Herzegovina", code: "ba" },
       score: "4-1",
-      venue: "Miami Stadium (Miami)",
+      venue: "SoFi Stadium (Los Angeles)",
       summary_md: `# ⚽ Resumo do Jogo: Suíça 4 - 1 Bósnia e Herzegovina
 **Data:** 18 de Junho de 2026  
 **Estádio:** SoFi Stadium (Los Angeles, CA)  
@@ -890,27 +890,27 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
   ],
   upcoming_matches: [
     {
-      id: "20260619_scotland_morocco",
-      date: "19/06/2026",
-      time: "21:00",
-      group: "C",
-      teamA: { name: "Escócia", code: "gb-sct" },
-            teamB: { name: "Marrocos", code: "ma" },
-      venue: "Gillette Stadium (Boston)"
-    },
-    {
       id: "20260619_usa_australia",
       date: "19/06/2026",
-      time: "18:00",
+      time: "20:00",
       group: "D",
       teamA: { name: "Estados Unidos", code: "us" },
             teamB: { name: "Austrália", code: "au" },
       venue: "SoFi Stadium (Los Angeles)"
     },
     {
-      id: "20260619_brazil_haiti",
+      id: "20260619_scotland_morocco",
       date: "19/06/2026",
-      time: "00:00",
+      time: "23:00",
+      group: "C",
+      teamA: { name: "Escócia", code: "gb-sct" },
+            teamB: { name: "Marrocos", code: "ma" },
+      venue: "Gillette Stadium (Boston)"
+    },
+    {
+      id: "20260619_brazil_haiti",
+      date: "20/06/2026",
+      time: "02:00",
       group: "C",
       teamA: { name: "Brasil", code: "br" },
             teamB: { name: "Haiti", code: "ht" },
@@ -918,8 +918,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260619_paraguay_turkiye",
-      date: "19/06/2026",
-      time: "03:00",
+      date: "20/06/2026",
+      time: "02:00",
       group: "D",
       teamA: { name: "Paraguai", code: "py" },
             teamB: { name: "Turquia", code: "tr" },
@@ -937,7 +937,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260620_curacao_ecuador",
       date: "20/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "E",
       teamA: { name: "Curaçao", code: "cw" },
             teamB: { name: "Equador", code: "ec" },
@@ -946,7 +946,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260620_netherlands_sweden",
       date: "20/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "F",
       teamA: { name: "Holanda", code: "nl" },
             teamB: { name: "Suécia", code: "se" },
@@ -954,8 +954,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260620_japan_tunisia",
-      date: "20/06/2026",
-      time: "03:00",
+      date: "21/06/2026",
+      time: "02:00",
       group: "F",
       teamA: { name: "Japão", code: "jp" },
             teamB: { name: "Tunísia", code: "tn" },
@@ -973,7 +973,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260621_egypt_newzealand",
       date: "21/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "G",
       teamA: { name: "Egito", code: "eg" },
             teamB: { name: "Nova Zelândia", code: "nz" },
@@ -982,7 +982,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260621_spain_saudiarabia",
       date: "21/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "H",
       teamA: { name: "Espanha", code: "es" },
             teamB: { name: "Arábia Saudita", code: "sa" },
@@ -990,8 +990,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260621_capeverde_uruguay",
-      date: "21/06/2026",
-      time: "03:00",
+      date: "22/06/2026",
+      time: "02:00",
       group: "H",
       teamA: { name: "Cabo Verde", code: "cv" },
             teamB: { name: "Uruguai", code: "uy" },
@@ -1009,7 +1009,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260622_senegal_iraq",
       date: "22/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "I",
       teamA: { name: "Senegal", code: "sn" },
             teamB: { name: "Iraque", code: "iq" },
@@ -1018,7 +1018,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260622_argentina_austria",
       date: "22/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "J",
       teamA: { name: "Argentina", code: "ar" },
             teamB: { name: "Áustria", code: "at" },
@@ -1026,8 +1026,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260622_algeria_jordan",
-      date: "22/06/2026",
-      time: "03:00",
+      date: "23/06/2026",
+      time: "02:00",
       group: "J",
       teamA: { name: "Argélia", code: "dz" },
             teamB: { name: "Jordânia", code: "jo" },
@@ -1045,7 +1045,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260623_drcongo_colombia",
       date: "23/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "K",
       teamA: { name: "RD Congo", code: "cd" },
             teamB: { name: "Colômbia", code: "co" },
@@ -1054,7 +1054,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260623_england_ghana",
       date: "23/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "L",
       teamA: { name: "Inglaterra", code: "gb-eng" },
             teamB: { name: "Gana", code: "gh" },
@@ -1062,8 +1062,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260623_croatia_panama",
-      date: "23/06/2026",
-      time: "03:00",
+      date: "24/06/2026",
+      time: "02:00",
       group: "L",
       teamA: { name: "Croácia", code: "hr" },
             teamB: { name: "Panamá", code: "pa" },
@@ -1081,7 +1081,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260624_southafrica_southkorea",
       date: "24/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "A",
       teamA: { name: "África do Sul", code: "za" },
             teamB: { name: "Coreia do Sul", code: "kr" },
@@ -1090,7 +1090,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260624_bosnia_qatar",
       date: "24/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "B",
       teamA: { name: "Bósnia e Herzegovina", code: "ba" },
             teamB: { name: "Catar", code: "qa" },
@@ -1098,8 +1098,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260624_switzerland_canada",
-      date: "24/06/2026",
-      time: "03:00",
+      date: "25/06/2026",
+      time: "02:00",
       group: "B",
       teamA: { name: "Suíça", code: "ch" },
             teamB: { name: "Canadá", code: "ca" },
@@ -1117,7 +1117,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260625_scotland_brazil",
       date: "25/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "C",
       teamA: { name: "Escócia", code: "gb-sct" },
             teamB: { name: "Brasil", code: "br" },
@@ -1126,7 +1126,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260625_turkiye_usa",
       date: "25/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "D",
       teamA: { name: "Turquia", code: "tr" },
             teamB: { name: "Estados Unidos", code: "us" },
@@ -1134,8 +1134,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260625_paraguay_australia",
-      date: "25/06/2026",
-      time: "03:00",
+      date: "26/06/2026",
+      time: "02:00",
       group: "D",
       teamA: { name: "Paraguai", code: "py" },
             teamB: { name: "Austrália", code: "au" },
@@ -1153,7 +1153,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260626_curacao_ivorycoast",
       date: "26/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "E",
       teamA: { name: "Curaçao", code: "cw" },
             teamB: { name: "Costa do Marfim", code: "ci" },
@@ -1162,7 +1162,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260626_tunisia_netherlands",
       date: "26/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "F",
       teamA: { name: "Tunísia", code: "tn" },
             teamB: { name: "Holanda", code: "nl" },
@@ -1170,8 +1170,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260626_japan_sweden",
-      date: "26/06/2026",
-      time: "03:00",
+      date: "27/06/2026",
+      time: "02:00",
       group: "F",
       teamA: { name: "Japão", code: "jp" },
             teamB: { name: "Suécia", code: "se" },
@@ -1189,7 +1189,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260627_egypt_iran",
       date: "27/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "G",
       teamA: { name: "Egito", code: "eg" },
             teamB: { name: "Irã", code: "ir" },
@@ -1198,7 +1198,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260627_uruguay_spain",
       date: "27/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "H",
       teamA: { name: "Uruguai", code: "uy" },
             teamB: { name: "Espanha", code: "es" },
@@ -1206,8 +1206,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260627_capeverde_saudiarabia",
-      date: "27/06/2026",
-      time: "03:00",
+      date: "28/06/2026",
+      time: "02:00",
       group: "H",
       teamA: { name: "Cabo Verde", code: "cv" },
             teamB: { name: "Arábia Saudita", code: "sa" },
@@ -1225,7 +1225,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260628_senegal_norway",
       date: "28/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "I",
       teamA: { name: "Senegal", code: "sn" },
             teamB: { name: "Noruega", code: "no" },
@@ -1234,7 +1234,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260628_jordan_argentina",
       date: "28/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "J",
       teamA: { name: "Jordânia", code: "jo" },
             teamB: { name: "Argentina", code: "ar" },
@@ -1242,8 +1242,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260628_algeria_austria",
-      date: "28/06/2026",
-      time: "03:00",
+      date: "29/06/2026",
+      time: "02:00",
       group: "J",
       teamA: { name: "Argélia", code: "dz" },
             teamB: { name: "Áustria", code: "at" },
@@ -1261,7 +1261,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260629_drcongo_uzbekistan",
       date: "29/06/2026",
-      time: "21:00",
+      time: "20:00",
       group: "K",
       teamA: { name: "RD Congo", code: "cd" },
             teamB: { name: "Uzbequistão", code: "uz" },
@@ -1270,7 +1270,7 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     {
       id: "20260629_panama_england",
       date: "29/06/2026",
-      time: "00:00",
+      time: "23:00",
       group: "L",
       teamA: { name: "Panamá", code: "pa" },
             teamB: { name: "Inglaterra", code: "gb-eng" },
@@ -1278,8 +1278,8 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
     },
     {
       id: "20260629_croatia_ghana",
-      date: "29/06/2026",
-      time: "03:00",
+      date: "30/06/2026",
+      time: "02:00",
       group: "L",
       teamA: { name: "Croácia", code: "hr" },
             teamB: { name: "Gana", code: "gh" },

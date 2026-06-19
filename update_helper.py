@@ -87,84 +87,87 @@ def rebuild_data_js(base_dir, current_date):
     matches_list = []
     
     # Próximos jogos padrão (os que ainda restam do cronograma fixo da fase de grupos)
+    # HORÁRIOS EM WEST (Lisboa, UTC+1) — fonte oficial FIFA
+    # Slot 1: 12 PM ET = 18:00 WEST | Slot 2: 3 PM ET = 20:00 WEST
+    # Slot 3: 6 PM ET = 23:00 WEST | Slot 4: 9 PM ET = 02:00 WEST (+1 dia)
     upcoming_schedule = [
         # Matchday 1 - 17 de Junho
         {"id": "20260617_portugal_drcongo", "date": "17/06/2026", "time": "18:00", "group": "K", "teamA": {"name": "Portugal", "code": "pt"}, "teamB": {"name": "RD Congo", "code": "cd"}, "venue": "NRG Stadium (Houston, TX)"},
-        {"id": "20260617_england_croatia", "date": "17/06/2026", "time": "21:00", "group": "L", "teamA": {"name": "Inglaterra", "code": "gb-eng"}, "teamB": {"name": "Croácia", "code": "hr"}, "venue": "AT&T Stadium (Arlington, TX)"},
-        {"id": "20260617_ghana_panama", "date": "17/06/2026", "time": "00:00", "group": "L", "teamA": {"name": "Gana", "code": "gh"}, "teamB": {"name": "Panamá", "code": "pa"}, "venue": "Toronto Stadium (Toronto)"},
-        {"id": "20260617_uzbekistan_colombia", "date": "17/06/2026", "time": "03:00", "group": "K", "teamA": {"name": "Uzbequistão", "code": "uz"}, "teamB": {"name": "Colômbia", "code": "co"}, "venue": "Mexico City Stadium (Cidade do México)"},
+        {"id": "20260617_england_croatia", "date": "17/06/2026", "time": "20:00", "group": "L", "teamA": {"name": "Inglaterra", "code": "gb-eng"}, "teamB": {"name": "Croácia", "code": "hr"}, "venue": "AT&T Stadium (Arlington, TX)"},
+        {"id": "20260617_ghana_panama", "date": "17/06/2026", "time": "23:00", "group": "L", "teamA": {"name": "Gana", "code": "gh"}, "teamB": {"name": "Panamá", "code": "pa"}, "venue": "Toronto Stadium (Toronto)"},
+        {"id": "20260617_uzbekistan_colombia", "date": "18/06/2026", "time": "02:00", "group": "K", "teamA": {"name": "Uzbequistão", "code": "uz"}, "teamB": {"name": "Colômbia", "code": "co"}, "venue": "Mexico City Stadium (Cidade do México)"},
         
         # Matchday 2 - 18 de Junho (Grupos A, B)
         {"id": "20260618_south_africa_czechia", "date": "18/06/2026", "time": "18:00", "group": "A", "teamA": {"name": "África do Sul", "code": "za"}, "teamB": {"name": "Tchéquia", "code": "cz"}, "venue": "Atlanta Stadium (Atlanta)"},
-        {"id": "20260618_switzerland_bosnia", "date": "18/06/2026", "time": "21:00", "group": "B", "teamA": {"name": "Suíça", "code": "ch"}, "teamB": {"name": "Bósnia e Herzegovina", "code": "ba"}, "venue": "Miami Stadium (Miami)"},
-        {"id": "20260618_canada_qatar", "date": "18/06/2026", "time": "00:00", "group": "B", "teamA": {"name": "Canadá", "code": "ca"}, "teamB": {"name": "Catar", "code": "qa"}, "venue": "BC Place (Vancouver)"},
-        {"id": "20260618_mexico_south_korea", "date": "18/06/2026", "time": "03:00", "group": "A", "teamA": {"name": "México", "code": "mx"}, "teamB": {"name": "Coreia do Sul", "code": "kr"}, "venue": "Estadio Azteca (Cidade do México)"},
+        {"id": "20260618_switzerland_bosnia", "date": "18/06/2026", "time": "20:00", "group": "B", "teamA": {"name": "Suíça", "code": "ch"}, "teamB": {"name": "Bósnia e Herzegovina", "code": "ba"}, "venue": "SoFi Stadium (Los Angeles)"},
+        {"id": "20260618_canada_qatar", "date": "18/06/2026", "time": "23:00", "group": "B", "teamA": {"name": "Canadá", "code": "ca"}, "teamB": {"name": "Catar", "code": "qa"}, "venue": "BC Place (Vancouver)"},
+        {"id": "20260618_mexico_south_korea", "date": "19/06/2026", "time": "02:00", "group": "A", "teamA": {"name": "México", "code": "mx"}, "teamB": {"name": "Coreia do Sul", "code": "kr"}, "venue": "Estadio Azteca (Cidade do México)"},
         
         # Matchday 2 - 19 de Junho (Grupos C, D)
-        {"id": "20260619_scotland_morocco", "date": "19/06/2026", "time": "21:00", "group": "C", "teamA": {"name": "Escócia", "code": "gb-sct"}, "teamB": {"name": "Marrocos", "code": "ma"}, "venue": "Gillette Stadium (Boston)"},
-        {"id": "20260619_usa_australia", "date": "19/06/2026", "time": "18:00", "group": "D", "teamA": {"name": "Estados Unidos", "code": "us"}, "teamB": {"name": "Austrália", "code": "au"}, "venue": "SoFi Stadium (Los Angeles)"},
-        {"id": "20260619_brazil_haiti", "date": "19/06/2026", "time": "00:00", "group": "C", "teamA": {"name": "Brasil", "code": "br"}, "teamB": {"name": "Haiti", "code": "ht"}, "venue": "MetLife Stadium (New York/New Jersey)"},
-        {"id": "20260619_paraguay_turkiye", "date": "19/06/2026", "time": "03:00", "group": "D", "teamA": {"name": "Paraguai", "code": "py"}, "teamB": {"name": "Turquia", "code": "tr"}, "venue": "Dallas Stadium (Dallas)"},
+        {"id": "20260619_usa_australia", "date": "19/06/2026", "time": "20:00", "group": "D", "teamA": {"name": "Estados Unidos", "code": "us"}, "teamB": {"name": "Austrália", "code": "au"}, "venue": "SoFi Stadium (Los Angeles)"},
+        {"id": "20260619_scotland_morocco", "date": "19/06/2026", "time": "23:00", "group": "C", "teamA": {"name": "Escócia", "code": "gb-sct"}, "teamB": {"name": "Marrocos", "code": "ma"}, "venue": "Gillette Stadium (Boston)"},
+        {"id": "20260619_brazil_haiti", "date": "20/06/2026", "time": "02:00", "group": "C", "teamA": {"name": "Brasil", "code": "br"}, "teamB": {"name": "Haiti", "code": "ht"}, "venue": "MetLife Stadium (New York/New Jersey)"},
+        {"id": "20260619_paraguay_turkiye", "date": "20/06/2026", "time": "02:00", "group": "D", "teamA": {"name": "Paraguai", "code": "py"}, "teamB": {"name": "Turquia", "code": "tr"}, "venue": "Dallas Stadium (Dallas)"},
         
         # Matchday 2 - 20 de Junho (Grupos E, F)
         {"id": "20260620_germany_ivorycoast", "date": "20/06/2026", "time": "18:00", "group": "E", "teamA": {"name": "Alemanha", "code": "de"}, "teamB": {"name": "Costa do Marfim", "code": "ci"}, "venue": "Houston Stadium (Houston)"},
-        {"id": "20260620_curacao_ecuador", "date": "20/06/2026", "time": "21:00", "group": "E", "teamA": {"name": "Curaçao", "code": "cw"}, "teamB": {"name": "Equador", "code": "ec"}, "venue": "Atlanta Stadium (Atlanta)"},
-        {"id": "20260620_netherlands_sweden", "date": "20/06/2026", "time": "00:00", "group": "F", "teamA": {"name": "Holanda", "code": "nl"}, "teamB": {"name": "Suécia", "code": "se"}, "venue": "Dallas Stadium (Dallas)"},
-        {"id": "20260620_japan_tunisia", "date": "20/06/2026", "time": "03:00", "group": "F", "teamA": {"name": "Japão", "code": "jp"}, "teamB": {"name": "Tunísia", "code": "tn"}, "venue": "San Francisco Stadium (Santa Clara)"},
+        {"id": "20260620_curacao_ecuador", "date": "20/06/2026", "time": "20:00", "group": "E", "teamA": {"name": "Curaçao", "code": "cw"}, "teamB": {"name": "Equador", "code": "ec"}, "venue": "Atlanta Stadium (Atlanta)"},
+        {"id": "20260620_netherlands_sweden", "date": "20/06/2026", "time": "23:00", "group": "F", "teamA": {"name": "Holanda", "code": "nl"}, "teamB": {"name": "Suécia", "code": "se"}, "venue": "Dallas Stadium (Dallas)"},
+        {"id": "20260620_japan_tunisia", "date": "21/06/2026", "time": "02:00", "group": "F", "teamA": {"name": "Japão", "code": "jp"}, "teamB": {"name": "Tunísia", "code": "tn"}, "venue": "San Francisco Stadium (Santa Clara)"},
         
         # Matchday 2 - 21 de Junho (Grupos G, H)
         {"id": "20260621_belgium_iran", "date": "21/06/2026", "time": "18:00", "group": "G", "teamA": {"name": "Bélgica", "code": "be"}, "teamB": {"name": "Irã", "code": "ir"}, "venue": "Vancouver Stadium (Vancouver)"},
-        {"id": "20260621_egypt_newzealand", "date": "21/06/2026", "time": "21:00", "group": "G", "teamA": {"name": "Egito", "code": "eg"}, "teamB": {"name": "Nova Zelândia", "code": "nz"}, "venue": "Kansas City Stadium (Kansas City)"},
-        {"id": "20260621_spain_saudiarabia", "date": "21/06/2026", "time": "00:00", "group": "H", "teamA": {"name": "Espanha", "code": "es"}, "teamB": {"name": "Arábia Saudita", "code": "sa"}, "venue": "Seattle Stadium (Seattle)"},
-        {"id": "20260621_capeverde_uruguay", "date": "21/06/2026", "time": "03:00", "group": "H", "teamA": {"name": "Cabo Verde", "code": "cv"}, "teamB": {"name": "Uruguai", "code": "uy"}, "venue": "Boston Stadium (Boston)"},
+        {"id": "20260621_egypt_newzealand", "date": "21/06/2026", "time": "20:00", "group": "G", "teamA": {"name": "Egito", "code": "eg"}, "teamB": {"name": "Nova Zelândia", "code": "nz"}, "venue": "Kansas City Stadium (Kansas City)"},
+        {"id": "20260621_spain_saudiarabia", "date": "21/06/2026", "time": "23:00", "group": "H", "teamA": {"name": "Espanha", "code": "es"}, "teamB": {"name": "Arábia Saudita", "code": "sa"}, "venue": "Seattle Stadium (Seattle)"},
+        {"id": "20260621_capeverde_uruguay", "date": "22/06/2026", "time": "02:00", "group": "H", "teamA": {"name": "Cabo Verde", "code": "cv"}, "teamB": {"name": "Uruguai", "code": "uy"}, "venue": "Boston Stadium (Boston)"},
         
         # Matchday 2 - 22 de Junho (Grupos I, J)
         {"id": "20260622_france_norway", "date": "22/06/2026", "time": "18:00", "group": "I", "teamA": {"name": "França", "code": "fr"}, "teamB": {"name": "Noruega", "code": "no"}, "venue": "MetLife Stadium (New York/New Jersey)"},
-        {"id": "20260622_senegal_iraq", "date": "22/06/2026", "time": "21:00", "group": "I", "teamA": {"name": "Senegal", "code": "sn"}, "teamB": {"name": "Iraque", "code": "iq"}, "venue": "Gillette Stadium (Boston)"},
-        {"id": "20260622_argentina_austria", "date": "22/06/2026", "time": "00:00", "group": "J", "teamA": {"name": "Argentina", "code": "ar"}, "teamB": {"name": "Áustria", "code": "at"}, "venue": "Kansas City Stadium (Kansas City)"},
-        {"id": "20260622_algeria_jordan", "date": "22/06/2026", "time": "03:00", "group": "J", "teamA": {"name": "Argélia", "code": "dz"}, "teamB": {"name": "Jordânia", "code": "jo"}, "venue": "San Francisco Stadium (Santa Clara)"},
+        {"id": "20260622_senegal_iraq", "date": "22/06/2026", "time": "20:00", "group": "I", "teamA": {"name": "Senegal", "code": "sn"}, "teamB": {"name": "Iraque", "code": "iq"}, "venue": "Gillette Stadium (Boston)"},
+        {"id": "20260622_argentina_austria", "date": "22/06/2026", "time": "23:00", "group": "J", "teamA": {"name": "Argentina", "code": "ar"}, "teamB": {"name": "Áustria", "code": "at"}, "venue": "Kansas City Stadium (Kansas City)"},
+        {"id": "20260622_algeria_jordan", "date": "23/06/2026", "time": "02:00", "group": "J", "teamA": {"name": "Argélia", "code": "dz"}, "teamB": {"name": "Jordânia", "code": "jo"}, "venue": "San Francisco Stadium (Santa Clara)"},
         
         # Matchday 2 - 23 de Junho (Grupos K, L)
         {"id": "20260623_portugal_uzbekistan", "date": "23/06/2026", "time": "18:00", "group": "K", "teamA": {"name": "Portugal", "code": "pt"}, "teamB": {"name": "Uzbequistão", "code": "uz"}, "venue": "NRG Stadium (Houston, TX)"},
-        {"id": "20260623_drcongo_colombia", "date": "23/06/2026", "time": "21:00", "group": "K", "teamA": {"name": "RD Congo", "code": "cd"}, "teamB": {"name": "Colômbia", "code": "co"}, "venue": "Mexico City Stadium (Cidade do México)"},
-        {"id": "20260623_england_ghana", "date": "23/06/2026", "time": "00:00", "group": "L", "teamA": {"name": "Inglaterra", "code": "gb-eng"}, "teamB": {"name": "Gana", "code": "gh"}, "venue": "AT&T Stadium (Arlington, TX)"},
-        {"id": "20260623_croatia_panama", "date": "23/06/2026", "time": "03:00", "group": "L", "teamA": {"name": "Croácia", "code": "hr"}, "teamB": {"name": "Panamá", "code": "pa"}, "venue": "Toronto Stadium (Toronto)"},
+        {"id": "20260623_drcongo_colombia", "date": "23/06/2026", "time": "20:00", "group": "K", "teamA": {"name": "RD Congo", "code": "cd"}, "teamB": {"name": "Colômbia", "code": "co"}, "venue": "Mexico City Stadium (Cidade do México)"},
+        {"id": "20260623_england_ghana", "date": "23/06/2026", "time": "23:00", "group": "L", "teamA": {"name": "Inglaterra", "code": "gb-eng"}, "teamB": {"name": "Gana", "code": "gh"}, "venue": "AT&T Stadium (Arlington, TX)"},
+        {"id": "20260623_croatia_panama", "date": "24/06/2026", "time": "02:00", "group": "L", "teamA": {"name": "Croácia", "code": "hr"}, "teamB": {"name": "Panamá", "code": "pa"}, "venue": "Toronto Stadium (Toronto)"},
         
         # Matchday 3 - 24 de Junho (Grupos A, B)
         {"id": "20260624_czechia_mexico", "date": "24/06/2026", "time": "18:00", "group": "A", "teamA": {"name": "Tchéquia", "code": "cz"}, "teamB": {"name": "México", "code": "mx"}, "venue": "Estadio Azteca (Cidade do México)"},
-        {"id": "20260624_southafrica_southkorea", "date": "24/06/2026", "time": "21:00", "group": "A", "teamA": {"name": "África do Sul", "code": "za"}, "teamB": {"name": "Coreia do Sul", "code": "kr"}, "venue": "BMO Field (Toronto)"},
-        {"id": "20260624_bosnia_qatar", "date": "24/06/2026", "time": "00:00", "group": "B", "teamA": {"name": "Bósnia e Herzegovina", "code": "ba"}, "teamB": {"name": "Catar", "code": "qa"}, "venue": "BC Place (Vancouver)"},
-        {"id": "20260624_switzerland_canada", "date": "24/06/2026", "time": "03:00", "group": "B", "teamA": {"name": "Suíça", "code": "ch"}, "teamB": {"name": "Canadá", "code": "ca"}, "venue": "Vancouver Stadium (Vancouver)"},
+        {"id": "20260624_southafrica_southkorea", "date": "24/06/2026", "time": "20:00", "group": "A", "teamA": {"name": "África do Sul", "code": "za"}, "teamB": {"name": "Coreia do Sul", "code": "kr"}, "venue": "BMO Field (Toronto)"},
+        {"id": "20260624_bosnia_qatar", "date": "24/06/2026", "time": "23:00", "group": "B", "teamA": {"name": "Bósnia e Herzegovina", "code": "ba"}, "teamB": {"name": "Catar", "code": "qa"}, "venue": "BC Place (Vancouver)"},
+        {"id": "20260624_switzerland_canada", "date": "25/06/2026", "time": "02:00", "group": "B", "teamA": {"name": "Suíça", "code": "ch"}, "teamB": {"name": "Canadá", "code": "ca"}, "venue": "Vancouver Stadium (Vancouver)"},
         
         # Matchday 3 - 25 de Junho (Grupos C, D)
         {"id": "20260625_morocco_haiti", "date": "25/06/2026", "time": "18:00", "group": "C", "teamA": {"name": "Marrocos", "code": "ma"}, "teamB": {"name": "Haiti", "code": "ht"}, "venue": "Miami Stadium (Miami)"},
-        {"id": "20260625_scotland_brazil", "date": "25/06/2026", "time": "21:00", "group": "C", "teamA": {"name": "Escócia", "code": "gb-sct"}, "teamB": {"name": "Brasil", "code": "br"}, "venue": "MetLife Stadium (New York/New Jersey)"},
-        {"id": "20260625_turkiye_usa", "date": "25/06/2026", "time": "00:00", "group": "D", "teamA": {"name": "Turquia", "code": "tr"}, "teamB": {"name": "Estados Unidos", "code": "us"}, "venue": "SoFi Stadium (Los Angeles)"},
-        {"id": "20260625_paraguay_australia", "date": "25/06/2026", "time": "03:00", "group": "D", "teamA": {"name": "Paraguai", "code": "py"}, "teamB": {"name": "Austrália", "code": "au"}, "venue": "Dallas Stadium (Dallas)"},
+        {"id": "20260625_scotland_brazil", "date": "25/06/2026", "time": "20:00", "group": "C", "teamA": {"name": "Escócia", "code": "gb-sct"}, "teamB": {"name": "Brasil", "code": "br"}, "venue": "MetLife Stadium (New York/New Jersey)"},
+        {"id": "20260625_turkiye_usa", "date": "25/06/2026", "time": "23:00", "group": "D", "teamA": {"name": "Turquia", "code": "tr"}, "teamB": {"name": "Estados Unidos", "code": "us"}, "venue": "SoFi Stadium (Los Angeles)"},
+        {"id": "20260625_paraguay_australia", "date": "26/06/2026", "time": "02:00", "group": "D", "teamA": {"name": "Paraguai", "code": "py"}, "teamB": {"name": "Austrália", "code": "au"}, "venue": "Dallas Stadium (Dallas)"},
         
         # Matchday 3 - 26 de Junho (Grupos E, F)
         {"id": "20260626_ecuador_germany", "date": "26/06/2026", "time": "18:00", "group": "E", "teamA": {"name": "Equador", "code": "ec"}, "teamB": {"name": "Alemanha", "code": "de"}, "venue": "Houston Stadium (Houston)"},
-        {"id": "20260626_curacao_ivorycoast", "date": "26/06/2026", "time": "21:00", "group": "E", "teamA": {"name": "Curaçao", "code": "cw"}, "teamB": {"name": "Costa do Marfim", "code": "ci"}, "venue": "Atlanta Stadium (Atlanta)"},
-        {"id": "20260626_tunisia_netherlands", "date": "26/06/2026", "time": "00:00", "group": "F", "teamA": {"name": "Tunísia", "code": "tn"}, "teamB": {"name": "Holanda", "code": "nl"}, "venue": "Dallas Stadium (Dallas)"},
-        {"id": "20260626_japan_sweden", "date": "26/06/2026", "time": "03:00", "group": "F", "teamA": {"name": "Japão", "code": "jp"}, "teamB": {"name": "Suécia", "code": "se"}, "venue": "San Francisco Stadium (Santa Clara)"},
+        {"id": "20260626_curacao_ivorycoast", "date": "26/06/2026", "time": "20:00", "group": "E", "teamA": {"name": "Curaçao", "code": "cw"}, "teamB": {"name": "Costa do Marfim", "code": "ci"}, "venue": "Atlanta Stadium (Atlanta)"},
+        {"id": "20260626_tunisia_netherlands", "date": "26/06/2026", "time": "23:00", "group": "F", "teamA": {"name": "Tunísia", "code": "tn"}, "teamB": {"name": "Holanda", "code": "nl"}, "venue": "Dallas Stadium (Dallas)"},
+        {"id": "20260626_japan_sweden", "date": "27/06/2026", "time": "02:00", "group": "F", "teamA": {"name": "Japão", "code": "jp"}, "teamB": {"name": "Suécia", "code": "se"}, "venue": "San Francisco Stadium (Santa Clara)"},
         
         # Matchday 3 - 27 de Junho (Grupos G, H)
         {"id": "20260627_newzealand_belgium", "date": "27/06/2026", "time": "18:00", "group": "G", "teamA": {"name": "Nova Zelândia", "code": "nz"}, "teamB": {"name": "Bélgica", "code": "be"}, "venue": "Vancouver Stadium (Vancouver)"},
-        {"id": "20260627_egypt_iran", "date": "27/06/2026", "time": "21:00", "group": "G", "teamA": {"name": "Egito", "code": "eg"}, "teamB": {"name": "Irã", "code": "ir"}, "venue": "Kansas City Stadium (Kansas City)"},
-        {"id": "20260627_uruguay_spain", "date": "27/06/2026", "time": "00:00", "group": "H", "teamA": {"name": "Uruguai", "code": "uy"}, "teamB": {"name": "Espanha", "code": "es"}, "venue": "Seattle Stadium (Seattle)"},
-        {"id": "20260627_capeverde_saudiarabia", "date": "27/06/2026", "time": "03:00", "group": "H", "teamA": {"name": "Cabo Verde", "code": "cv"}, "teamB": {"name": "Arábia Saudita", "code": "sa"}, "venue": "Boston Stadium (Boston)"},
+        {"id": "20260627_egypt_iran", "date": "27/06/2026", "time": "20:00", "group": "G", "teamA": {"name": "Egito", "code": "eg"}, "teamB": {"name": "Irã", "code": "ir"}, "venue": "Kansas City Stadium (Kansas City)"},
+        {"id": "20260627_uruguay_spain", "date": "27/06/2026", "time": "23:00", "group": "H", "teamA": {"name": "Uruguai", "code": "uy"}, "teamB": {"name": "Espanha", "code": "es"}, "venue": "Seattle Stadium (Seattle)"},
+        {"id": "20260627_capeverde_saudiarabia", "date": "28/06/2026", "time": "02:00", "group": "H", "teamA": {"name": "Cabo Verde", "code": "cv"}, "teamB": {"name": "Arábia Saudita", "code": "sa"}, "venue": "Boston Stadium (Boston)"},
         
         # Matchday 3 - 28 de Junho (Grupos I, J)
         {"id": "20260628_iraq_france", "date": "28/06/2026", "time": "18:00", "group": "I", "teamA": {"name": "Iraque", "code": "iq"}, "teamB": {"name": "França", "code": "fr"}, "venue": "MetLife Stadium (New York/New Jersey)"},
-        {"id": "20260628_senegal_norway", "date": "28/06/2026", "time": "21:00", "group": "I", "teamA": {"name": "Senegal", "code": "sn"}, "teamB": {"name": "Noruega", "code": "no"}, "venue": "Gillette Stadium (Boston)"},
-        {"id": "20260628_jordan_argentina", "date": "28/06/2026", "time": "00:00", "group": "J", "teamA": {"name": "Jordânia", "code": "jo"}, "teamB": {"name": "Argentina", "code": "ar"}, "venue": "Kansas City Stadium (Kansas City)"},
-        {"id": "20260628_algeria_austria", "date": "28/06/2026", "time": "03:00", "group": "J", "teamA": {"name": "Argélia", "code": "dz"}, "teamB": {"name": "Áustria", "code": "at"}, "venue": "San Francisco Stadium (Santa Clara)"},
+        {"id": "20260628_senegal_norway", "date": "28/06/2026", "time": "20:00", "group": "I", "teamA": {"name": "Senegal", "code": "sn"}, "teamB": {"name": "Noruega", "code": "no"}, "venue": "Gillette Stadium (Boston)"},
+        {"id": "20260628_jordan_argentina", "date": "28/06/2026", "time": "23:00", "group": "J", "teamA": {"name": "Jordânia", "code": "jo"}, "teamB": {"name": "Argentina", "code": "ar"}, "venue": "Kansas City Stadium (Kansas City)"},
+        {"id": "20260628_algeria_austria", "date": "29/06/2026", "time": "02:00", "group": "J", "teamA": {"name": "Argélia", "code": "dz"}, "teamB": {"name": "Áustria", "code": "at"}, "venue": "San Francisco Stadium (Santa Clara)"},
         
         # Matchday 3 - 29 de Junho (Grupos K, L)
         {"id": "20260629_colombia_portugal", "date": "29/06/2026", "time": "18:00", "group": "K", "teamA": {"name": "Colômbia", "code": "co"}, "teamB": {"name": "Portugal", "code": "pt"}, "venue": "NRG Stadium (Houston, TX)"},
-        {"id": "20260629_drcongo_uzbekistan", "date": "29/06/2026", "time": "21:00", "group": "K", "teamA": {"name": "RD Congo", "code": "cd"}, "teamB": {"name": "Uzbequistão", "code": "uz"}, "venue": "Mexico City Stadium (Cidade do México)"},
-        {"id": "20260629_panama_england", "date": "29/06/2026", "time": "00:00", "group": "L", "teamA": {"name": "Panamá", "code": "pa"}, "teamB": {"name": "Inglaterra", "code": "gb-eng"}, "venue": "AT&T Stadium (Arlington, TX)"},
-        {"id": "20260629_croatia_ghana", "date": "29/06/2026", "time": "03:00", "group": "L", "teamA": {"name": "Croácia", "code": "hr"}, "teamB": {"name": "Gana", "code": "gh"}, "venue": "Toronto Stadium (Toronto)"}
+        {"id": "20260629_drcongo_uzbekistan", "date": "29/06/2026", "time": "20:00", "group": "K", "teamA": {"name": "RD Congo", "code": "cd"}, "teamB": {"name": "Uzbequistão", "code": "uz"}, "venue": "Mexico City Stadium (Cidade do México)"},
+        {"id": "20260629_panama_england", "date": "29/06/2026", "time": "23:00", "group": "L", "teamA": {"name": "Panamá", "code": "pa"}, "teamB": {"name": "Inglaterra", "code": "gb-eng"}, "venue": "AT&T Stadium (Arlington, TX)"},
+        {"id": "20260629_croatia_ghana", "date": "30/06/2026", "time": "02:00", "group": "L", "teamA": {"name": "Croácia", "code": "hr"}, "teamB": {"name": "Gana", "code": "gh"}, "venue": "Toronto Stadium (Toronto)"}
     ]
 
     # Mapeamento de códigos de países para reconstrução
