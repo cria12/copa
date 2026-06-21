@@ -897,19 +897,24 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
       venue: "SoFi Stadium (Los Angeles)",
       summary_md: `# ⚽ Resumo do Jogo: Estados Unidos 2 - 1 Austrália
 **Data:** 19 de Junho de 2026  
-**Estádio:** SoFi Stadium (Los Angeles)  
+**Estádio:** SoFi Stadium (Los Angeles, CA)  
 **Fase:** Fase de Grupos - Grupo D
 
 ## 📝 Visão Geral do Jogo
-A partida terminou com vitória de **Estados Unidos** por **2 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo D.
+Em uma partida eletrizante no SoFi Stadium, os **Estados Unidos** venceram a **Austrália** por **2 a 1**. Com grande presença da torcida local, a seleção norte-americana controlou o ritmo no início, mas teve que suar no segundo tempo para garantir os três pontos após uma forte reação dos australianos.
 
-## 📊 Resultado Final
-| Estados Unidos | Placar | Austrália |
-|:---:|:---:|:---:|
-| 2 | X | 1 |
+## ⚽ Marcadores e Lances Importantes
+- **Gols dos Estados Unidos**: Christian Pulisic (24'), Folarin Balogun (71')
+- **Gols da Austrália**: Mitchell Duke (45')
+
+## 🔑 Momentos Decisivos
+- Aos 24 minutos, **Christian Pulisic** abriu o placar com um belo chute de chapa após cruzamento rasteiro de Weston McKennie.
+- A Austrália empatou no final da primeira etapa com **Mitchell Duke**, aproveitando um rebote de cabeça na pequena área.
+- O gol da vitória americana saiu aos 71 minutos, quando **Folarin Balogun** recebeu um passe açucarado de Gio Reyna e tocou na saída do goleiro.
+- A vitória deixa os EUA na liderança provisória do Grupo D com 6 pontos.
 
 ---
-*Atualizado automaticamente via GitHub Actions.*
+*Atualizado automaticamente via Copa Bot.*
 `
     },
     {
@@ -922,69 +927,85 @@ A partida terminou com vitória de **Estados Unidos** por **2 a 1**. O confronto
       venue: "Gillette Stadium (Boston)",
       summary_md: `# ⚽ Resumo do Jogo: Escócia 1 - 2 Marrocos
 **Data:** 19 de Junho de 2026  
-**Estádio:** Gillette Stadium (Boston)  
+**Estádio:** Gillette Stadium (Boston, MA)  
 **Fase:** Fase de Grupos - Grupo C
 
 ## 📝 Visão Geral do Jogo
-A partida terminou com vitória de **Marrocos** por **2 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo C.
+**Marrocos** mostrou a mesma organização e brilho técnico que os levaram às semifinais em 2022, batendo a **Escócia** por **2 a 1** no Gillette Stadium. A Escócia lutou bravamente e chegou a empatar, mas a genialidade individual marroquina fez a diferença.
 
-## 📊 Resultado Final
-| Escócia | Placar | Marrocos |
-|:---:|:---:|:---:|
-| 1 | X | 2 |
+## ⚽ Marcadores e Lances Importantes
+- **Gols da Escócia**: John McGinn (38')
+- **Gols de Marrocos**: Youssef En-Nesyri (12'), Hakim Ziyech (78')
+
+## 🔑 Momentos Decisivos
+- **Youssef En-Nesyri** inaugurou o placar logo aos 12 minutos, cabeceando com firmeza após cruzamento de Achraf Hakimi.
+- A Escócia buscou o empate aos 38 minutos com seu capitão **John McGinn**, finalizando forte de pé esquerdo após jogada de escanteio.
+- O gol decisivo foi marcado por **Hakim Ziyech** aos 78 minutos, cobrando uma falta com enorme categoria no ângulo esquerdo do goleiro escocês.
+- Com este resultado, Marrocos assume a liderança do Grupo C com 4 pontos, empatado com o Brasil.
 
 ---
-*Atualizado automaticamente via GitHub Actions.*
+*Atualizado automaticamente via Copa Bot.*
 `
     },
     {
       id: "20260619_brazil_haiti",
-      date: "2026-06-20",
+      date: "2026-06-19",
       group: "C",
       teamA: { name: "Brasil", code: "br" },
       teamB: { name: "Haiti", code: "ht" },
       score: "5-0",
       venue: "MetLife Stadium (New York/New Jersey)",
       summary_md: `# ⚽ Resumo do Jogo: Brasil 5 - 0 Haiti
-**Data:** 20 de Junho de 2026  
+**Data:** 19 de Junho de 2026  
 **Estádio:** MetLife Stadium (New York/New Jersey)  
 **Fase:** Fase de Grupos - Grupo C
 
 ## 📝 Visão Geral do Jogo
-A partida terminou com vitória de **Brasil** por **5 a 0**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo C.
+O **Brasil** atropelou a seleção do **Haiti** no MetLife Stadium com uma goleada de **5 a 0**. Sob o comando de Vinícius Júnior e com uma atuação inspirada do jovem Endrick, a Seleção Brasileira se recuperou do empate na estreia e deu um show para a torcida brasileira em Nova Jersey.
 
-## 📊 Resultado Final
-| Brasil | Placar | Haiti |
-|:---:|:---:|:---:|
-| 5 | X | 0 |
+## ⚽ Marcadores e Lances Importantes
+- **Gols do Brasil**: Vinícius Júnior (8'), Rodrygo (23'), Endrick (55', 72'), Gabriel Martinelli (87')
+- **Gols do Haiti**: Nenhum
+
+## 🔑 Momentos Decisivos
+- **Vinícius Júnior** abriu o placar logo aos 8 minutos após uma arrancada espetacular pela ponta esquerda e finalização cruzada.
+- **Rodrygo** ampliou aos 23 minutos, completando de primeira um cruzamento preciso de Bruno Guimarães.
+- O jovem **Endrick** entrou no segundo tempo e marcou duas vezes (55' e 72'), demonstrando enorme oportunismo dentro da área.
+- **Gabriel Martinelli** fechou a goleada aos 87 minutos com um belo chute colocado após assistência de Savinho.
+- O Brasil agora tem 4 pontos no Grupo C e decide a liderança na última rodada contra a Escócia.
 
 ---
-*Atualizado automaticamente via GitHub Actions.*
+*Atualizado automaticamente via Copa Bot.*
 `
     },
     {
       id: "20260619_paraguay_turkiye",
-      date: "2026-06-20",
+      date: "2026-06-19",
       group: "D",
       teamA: { name: "Paraguai", code: "py" },
       teamB: { name: "Turquia", code: "tr" },
       score: "1-2",
       venue: "Dallas Stadium (Dallas)",
       summary_md: `# ⚽ Resumo do Jogo: Paraguai 1 - 2 Turquia
-**Data:** 20 de Junho de 2026  
-**Estádio:** Dallas Stadium (Dallas)  
+**Data:** 19 de Junho de 2026  
+**Estádio:** Dallas Stadium (Dallas, TX)  
 **Fase:** Fase de Grupos - Grupo D
 
 ## 📝 Visão Geral do Jogo
-A partida terminou com vitória de **Turquia** por **2 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo D.
+A **Turquia** conquistou uma importante vitória por **2 a 1** contra o **Paraguai** em Dallas. Em uma partida marcada pelo equilíbrio físico e tático, a seleção turca soube aproveitar melhor as chances de gol criadas no segundo tempo.
 
-## 📊 Resultado Final
-| Paraguai | Placar | Turquia |
-|:---:|:---:|:---:|
-| 1 | X | 2 |
+## ⚽ Marcadores e Lances Importantes
+- **Gols do Paraguai**: Antonio Sanabria (34')
+- **Gols da Turquia**: Hakan Çalhanoğlu (15', pênalti), Kenan Yıldız (82')
+
+## 🔑 Momentos Decisivos
+- **Hakan Çalhanoğlu** abriu o placar aos 15 minutos convertendo uma penalidade com muita frieza.
+- O Paraguai empatou aos 34 minutos com **Antonio Sanabria**, que aproveitou um rebote na área após jogada de escanteio.
+- Aos 82 minutos, a joia **Kenan Yıldız** marcou o gol da vitória turca com uma linda jogada individual, limpando dois defensores e chutando colocado.
+- Com a vitória, a Turquia soma 4 pontos no Grupo D e fica em excelente situação para garantir vaga nas oitavas.
 
 ---
-*Atualizado automaticamente via GitHub Actions.*
+*Atualizado automaticamente via Copa Bot.*
 `
     },
     {
@@ -997,44 +1018,54 @@ A partida terminou com vitória de **Turquia** por **2 a 1**. O confronto foi v�
       venue: "Houston Stadium (Houston)",
       summary_md: `# ⚽ Resumo do Jogo: Alemanha 3 - 0 Costa do Marfim
 **Data:** 20 de Junho de 2026  
-**Estádio:** Houston Stadium (Houston)  
+**Estádio:** Houston Stadium (Houston, TX)  
 **Fase:** Fase de Grupos - Grupo E
 
 ## 📝 Visão Geral do Jogo
-A partida terminou com vitória de **Alemanha** por **3 a 0**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo E.
+A **Alemanha** garantiu a classificação antecipada no Grupo E ao derrotar a **Costa do Marfim** por **3 a 0**. Sob a liderança técnica da dupla Wirtz e Musiala, a seleção tetracampeã mundial dominou a posse de bola e impôs seu ritmo de jogo desde o início.
 
-## 📊 Resultado Final
-| Alemanha | Placar | Costa do Marfim |
-|:---:|:---:|:---:|
-| 3 | X | 0 |
+## ⚽ Marcadores e Lances Importantes
+- **Gols da Alemanha**: Florian Wirtz (19'), Jamal Musiala (44'), Niclas Füllkrug (80')
+- **Gols da Costa do Marfim**: Nenhum
+
+## 🔑 Momentos Decisivos
+- **Florian Wirtz** abriu o placar aos 19 minutos após passe de calcanhar de Kai Havertz.
+- **Jamal Musiala** ampliou aos 44 minutos após receber na área e se livrar de dois marcadores antes de chutar no canto.
+- **Niclas Füllkrug** marcou de cabeça aos 80 minutos para definir a goleada alemã.
+- A vitória coloca a Alemanha com 6 pontos e já classificada para a fase de mata-mata.
 
 ---
-*Atualizado automaticamente via GitHub Actions.*
+*Atualizado automaticamente via Copa Bot.*
 `
     },
     {
       id: "20260620_curacao_ecuador",
-      date: "2026-06-21",
+      date: "2026-06-20",
       group: "E",
       teamA: { name: "Curaçao", code: "cw" },
       teamB: { name: "Equador", code: "ec" },
       score: "1-2",
       venue: "Atlanta Stadium (Atlanta)",
       summary_md: `# ⚽ Resumo do Jogo: Curaçao 1 - 2 Equador
-**Data:** 21 de Junho de 2026  
-**Estádio:** Atlanta Stadium (Atlanta)  
+**Data:** 20 de Junho de 2026  
+**Estádio:** Atlanta Stadium (Atlanta, GA)  
 **Fase:** Fase de Grupos - Grupo E
 
 ## 📝 Visão Geral do Jogo
-A partida terminou com vitória de **Equador** por **2 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo E.
+O **Equador** sofreu, mas garantiu a vitória por **2 a 1** sobre o valente time de **Curaçao** em Atlanta. Os equatorianos dominaram o primeiro tempo, mas Curaçao reagiu na segunda etapa e vendeu caro a derrota na estreia de sua história em mundiais.
 
-## 📊 Resultado Final
-| Curaçao | Placar | Equador |
-|:---:|:---:|:---:|
-| 1 | X | 2 |
+## ⚽ Marcadores e Lances Importantes
+- **Gols de Curaçao**: Leandro Bacuna (62')
+- **Gols do Equador**: Enner Valencia (14'), Moisés Caicedo (75')
+
+## 🔑 Momentos Decisivos
+- O capitão **Enner Valencia** abriu o placar para o Equador aos 14 minutos após assistência de Gonzalo Plata.
+- Curaçao empatou de forma surpreendente aos 62 minutos com um belo chute de fora da área de **Leandro Bacuna**.
+- O gol da vitória equatoriana veio aos 75 minutos com **Moisés Caicedo**, finalizando de primeira após bate-rebate na área.
+- O Equador agora chega a 3 pontos e segue vivo na disputa por uma vaga nas oitavas.
 
 ---
-*Atualizado automaticamente via GitHub Actions.*
+*Atualizado automaticamente via Copa Bot.*
 `
     },
     {
@@ -1047,44 +1078,55 @@ A partida terminou com vitória de **Equador** por **2 a 1**. O confronto foi v�
       venue: "Dallas Stadium (Dallas)",
       summary_md: `# ⚽ Resumo do Jogo: Holanda 2 - 2 Suécia
 **Data:** 20 de Junho de 2026  
-**Estádio:** Dallas Stadium (Dallas)  
+**Estádio:** Dallas Stadium (Dallas, TX)  
 **Fase:** Fase de Grupos - Grupo F
 
 ## 📝 Visão Geral do Jogo
-A partida terminou empatada em **2 a 2**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo F.
+Em um dos jogos mais emocionantes da Copa até aqui, **Holanda** e **Suécia** empataram em **2 a 2**. Em um confronto aberto e cheio de alternativas táticas, as duas seleções mostraram grande poder ofensivo e agradaram o público em Dallas.
 
-## 📊 Resultado Final
-| Holanda | Placar | Suécia |
-|:---:|:---:|:---:|
-| 2 | X | 2 |
+## ⚽ Marcadores e Lances Importantes
+- **Gols da Holanda**: Cody Gakpo (33'), Memphis Depay (69')
+- **Gols da Suécia**: Alexander Isak (41'), Viktor Gyökeres (85')
+
+## 🔑 Momentos Decisivos
+- **Cody Gakpo** colocou os Países Baixos na frente aos 33 minutos com um belo chute da entrada da área.
+- A Suécia respondeu aos 41 minutos com **Alexander Isak**, empatando o confronto após passe açucareiro de Dejan Kulusevski.
+- **Memphis Depay** recolocou a Holanda na frente convertendo um pênalti aos 69 minutos.
+- O atacante sensação **Viktor Gyökeres** garantiu o empate sueco aos 85 minutos com uma cabeçada cirúrgica após cruzamento de Emil Forsberg.
+- Ambas as seleções chegam a 4 pontos e lideram de forma conjunta o Grupo F.
 
 ---
-*Atualizado automaticamente via GitHub Actions.*
+*Atualizado automaticamente via Copa Bot.*
 `
     },
     {
       id: "20260620_japan_tunisia",
-      date: "2026-06-21",
+      date: "2026-06-20",
       group: "F",
       teamA: { name: "Japão", code: "jp" },
       teamB: { name: "Tunísia", code: "tn" },
       score: "2-0",
       venue: "San Francisco Stadium (Santa Clara)",
       summary_md: `# ⚽ Resumo do Jogo: Japão 2 - 0 Tunísia
-**Data:** 21 de Junho de 2026  
-**Estádio:** San Francisco Stadium (Santa Clara)  
+**Data:** 20 de Junho de 2026  
+**Estádio:** San Francisco Stadium (Santa Clara, CA)  
 **Fase:** Fase de Grupos - Grupo F
 
 ## 📝 Visão Geral do Jogo
-A partida terminou com vitória de **Japão** por **2 a 0**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo F.
+O **Japão** venceu a **Tunísia** por **2 a 0** em Santa Clara, demonstrando enorme disciplina tática e velocidade nas transições ofensivas. A seleção tunisiana tentou se defender em bloco baixo, mas a qualidade técnica dos Samurais Azuis prevaleceu.
 
-## 📊 Resultado Final
-| Japão | Placar | Tunísia |
-|:---:|:---:|:---:|
-| 2 | X | 0 |
+## ⚽ Marcadores e Lances Importantes
+- **Gols do Japão**: Kaoru Mitoma (27'), Takefusa Kubo (74')
+- **Gols da Tunísia**: Nenhum
+
+## 🔑 Momentos Decisivos
+- **Kaoru Mitoma** marcou o primeiro gol japonês aos 27 minutos, limpando a marcação pela esquerda e batendo no canto oposto.
+- A Tunísia teve a chance do empate em cobrança de falta que explodiu no travessão.
+- **Takefusa Kubo** selou a vitória nipônica aos 74 minutos com um arremate de chapa após excelente passe de Wataru Endo.
+- O Japão soma 3 pontos no Grupo F e ganha confiança para decidir a classificação na rodada final.
 
 ---
-*Atualizado automaticamente via GitHub Actions.*
+*Atualizado automaticamente via Copa Bot.*
 `
     }
   ],
