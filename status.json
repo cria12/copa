@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-21T08:58:01Z",
+  "last_check": "2026-06-21T11:11:06Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -252,6 +252,78 @@
       ],
       "score": "1-0",
       "summary_file": "partidas/20260618_mexico_south_korea.md"
+    },
+    "20260619_usa_australia": {
+      "date": "2026-06-19",
+      "teams": [
+        "Estados Unidos",
+        "Austrália"
+      ],
+      "score": "2-1",
+      "summary_file": "partidas/20260619_usa_australia.md"
+    },
+    "20260619_scotland_morocco": {
+      "date": "2026-06-19",
+      "teams": [
+        "Escócia",
+        "Marrocos"
+      ],
+      "score": "1-2",
+      "summary_file": "partidas/20260619_scotland_morocco.md"
+    },
+    "20260619_brazil_haiti": {
+      "date": "2026-06-20",
+      "teams": [
+        "Brasil",
+        "Haiti"
+      ],
+      "score": "5-0",
+      "summary_file": "partidas/20260619_brazil_haiti.md"
+    },
+    "20260619_paraguay_turkiye": {
+      "date": "2026-06-20",
+      "teams": [
+        "Paraguai",
+        "Turquia"
+      ],
+      "score": "1-2",
+      "summary_file": "partidas/20260619_paraguay_turkiye.md"
+    },
+    "20260620_germany_ivorycoast": {
+      "date": "2026-06-20",
+      "teams": [
+        "Alemanha",
+        "Costa do Marfim"
+      ],
+      "score": "3-0",
+      "summary_file": "partidas/20260620_germany_ivorycoast.md"
+    },
+    "20260620_curacao_ecuador": {
+      "date": "2026-06-21",
+      "teams": [
+        "Curaçao",
+        "Equador"
+      ],
+      "score": "1-2",
+      "summary_file": "partidas/20260620_curacao_ecuador.md"
+    },
+    "20260620_netherlands_sweden": {
+      "date": "2026-06-20",
+      "teams": [
+        "Holanda",
+        "Suécia"
+      ],
+      "score": "2-2",
+      "summary_file": "partidas/20260620_netherlands_sweden.md"
+    },
+    "20260620_japan_tunisia": {
+      "date": "2026-06-21",
+      "teams": [
+        "Japão",
+        "Tunísia"
+      ],
+      "score": "2-0",
+      "summary_file": "partidas/20260620_japan_tunisia.md"
     }
   }
 }

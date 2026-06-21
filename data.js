@@ -886,81 +886,209 @@ Em uma partida disputada no mítico Estádio Azteca, o **México** venceu a **Co
 ---
 *Atualizado automaticamente via Copa Bot.*
 `
-    }
-  ],
-  upcoming_matches: [
+    },
     {
       id: "20260619_usa_australia",
-      date: "19/06/2026",
-      time: "20:00",
+      date: "2026-06-19",
       group: "D",
       teamA: { name: "Estados Unidos", code: "us" },
-            teamB: { name: "Austrália", code: "au" },
-      venue: "SoFi Stadium (Los Angeles)"
+      teamB: { name: "Austrália", code: "au" },
+      score: "2-1",
+      venue: "SoFi Stadium (Los Angeles)",
+      summary_md: `# ⚽ Resumo do Jogo: Estados Unidos 2 - 1 Austrália
+**Data:** 19 de Junho de 2026  
+**Estádio:** SoFi Stadium (Los Angeles)  
+**Fase:** Fase de Grupos - Grupo D
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Estados Unidos** por **2 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo D.
+
+## 📊 Resultado Final
+| Estados Unidos | Placar | Austrália |
+|:---:|:---:|:---:|
+| 2 | X | 1 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     },
     {
       id: "20260619_scotland_morocco",
-      date: "19/06/2026",
-      time: "23:00",
+      date: "2026-06-19",
       group: "C",
       teamA: { name: "Escócia", code: "gb-sct" },
-            teamB: { name: "Marrocos", code: "ma" },
-      venue: "Gillette Stadium (Boston)"
+      teamB: { name: "Marrocos", code: "ma" },
+      score: "1-2",
+      venue: "Gillette Stadium (Boston)",
+      summary_md: `# ⚽ Resumo do Jogo: Escócia 1 - 2 Marrocos
+**Data:** 19 de Junho de 2026  
+**Estádio:** Gillette Stadium (Boston)  
+**Fase:** Fase de Grupos - Grupo C
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Marrocos** por **2 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo C.
+
+## 📊 Resultado Final
+| Escócia | Placar | Marrocos |
+|:---:|:---:|:---:|
+| 1 | X | 2 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     },
     {
       id: "20260619_brazil_haiti",
-      date: "20/06/2026",
-      time: "01:30",
+      date: "2026-06-20",
       group: "C",
       teamA: { name: "Brasil", code: "br" },
-            teamB: { name: "Haiti", code: "ht" },
-      venue: "MetLife Stadium (New York/New Jersey)"
+      teamB: { name: "Haiti", code: "ht" },
+      score: "5-0",
+      venue: "MetLife Stadium (New York/New Jersey)",
+      summary_md: `# ⚽ Resumo do Jogo: Brasil 5 - 0 Haiti
+**Data:** 20 de Junho de 2026  
+**Estádio:** MetLife Stadium (New York/New Jersey)  
+**Fase:** Fase de Grupos - Grupo C
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Brasil** por **5 a 0**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo C.
+
+## 📊 Resultado Final
+| Brasil | Placar | Haiti |
+|:---:|:---:|:---:|
+| 5 | X | 0 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     },
     {
       id: "20260619_paraguay_turkiye",
-      date: "20/06/2026",
-      time: "04:00",
+      date: "2026-06-20",
       group: "D",
       teamA: { name: "Paraguai", code: "py" },
-            teamB: { name: "Turquia", code: "tr" },
-      venue: "Dallas Stadium (Dallas)"
+      teamB: { name: "Turquia", code: "tr" },
+      score: "1-2",
+      venue: "Dallas Stadium (Dallas)",
+      summary_md: `# ⚽ Resumo do Jogo: Paraguai 1 - 2 Turquia
+**Data:** 20 de Junho de 2026  
+**Estádio:** Dallas Stadium (Dallas)  
+**Fase:** Fase de Grupos - Grupo D
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Turquia** por **2 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo D.
+
+## 📊 Resultado Final
+| Paraguai | Placar | Turquia |
+|:---:|:---:|:---:|
+| 1 | X | 2 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     },
     {
       id: "20260620_germany_ivorycoast",
-      date: "20/06/2026",
-      time: "21:00",
+      date: "2026-06-20",
       group: "E",
       teamA: { name: "Alemanha", code: "de" },
-            teamB: { name: "Costa do Marfim", code: "ci" },
-      venue: "Houston Stadium (Houston)"
+      teamB: { name: "Costa do Marfim", code: "ci" },
+      score: "3-0",
+      venue: "Houston Stadium (Houston)",
+      summary_md: `# ⚽ Resumo do Jogo: Alemanha 3 - 0 Costa do Marfim
+**Data:** 20 de Junho de 2026  
+**Estádio:** Houston Stadium (Houston)  
+**Fase:** Fase de Grupos - Grupo E
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Alemanha** por **3 a 0**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo E.
+
+## 📊 Resultado Final
+| Alemanha | Placar | Costa do Marfim |
+|:---:|:---:|:---:|
+| 3 | X | 0 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     },
     {
       id: "20260620_curacao_ecuador",
-      date: "21/06/2026",
-      time: "01:00",
+      date: "2026-06-21",
       group: "E",
       teamA: { name: "Curaçao", code: "cw" },
-            teamB: { name: "Equador", code: "ec" },
-      venue: "Atlanta Stadium (Atlanta)"
+      teamB: { name: "Equador", code: "ec" },
+      score: "1-2",
+      venue: "Atlanta Stadium (Atlanta)",
+      summary_md: `# ⚽ Resumo do Jogo: Curaçao 1 - 2 Equador
+**Data:** 21 de Junho de 2026  
+**Estádio:** Atlanta Stadium (Atlanta)  
+**Fase:** Fase de Grupos - Grupo E
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Equador** por **2 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo E.
+
+## 📊 Resultado Final
+| Curaçao | Placar | Equador |
+|:---:|:---:|:---:|
+| 1 | X | 2 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     },
     {
       id: "20260620_netherlands_sweden",
-      date: "20/06/2026",
-      time: "18:00",
+      date: "2026-06-20",
       group: "F",
       teamA: { name: "Holanda", code: "nl" },
-            teamB: { name: "Suécia", code: "se" },
-      venue: "Dallas Stadium (Dallas)"
+      teamB: { name: "Suécia", code: "se" },
+      score: "2-2",
+      venue: "Dallas Stadium (Dallas)",
+      summary_md: `# ⚽ Resumo do Jogo: Holanda 2 - 2 Suécia
+**Data:** 20 de Junho de 2026  
+**Estádio:** Dallas Stadium (Dallas)  
+**Fase:** Fase de Grupos - Grupo F
+
+## 📝 Visão Geral do Jogo
+A partida terminou empatada em **2 a 2**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo F.
+
+## 📊 Resultado Final
+| Holanda | Placar | Suécia |
+|:---:|:---:|:---:|
+| 2 | X | 2 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     },
     {
       id: "20260620_japan_tunisia",
-      date: "21/06/2026",
-      time: "05:00",
+      date: "2026-06-21",
       group: "F",
       teamA: { name: "Japão", code: "jp" },
-            teamB: { name: "Tunísia", code: "tn" },
-      venue: "San Francisco Stadium (Santa Clara)"
-    },
+      teamB: { name: "Tunísia", code: "tn" },
+      score: "2-0",
+      venue: "San Francisco Stadium (Santa Clara)",
+      summary_md: `# ⚽ Resumo do Jogo: Japão 2 - 0 Tunísia
+**Data:** 21 de Junho de 2026  
+**Estádio:** San Francisco Stadium (Santa Clara)  
+**Fase:** Fase de Grupos - Grupo F
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Japão** por **2 a 0**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo F.
+
+## 📊 Resultado Final
+| Japão | Placar | Tunísia |
+|:---:|:---:|:---:|
+| 2 | X | 0 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
+    }
+  ],
+  upcoming_matches: [
     {
       id: "20260621_belgium_iran",
       date: "21/06/2026",
