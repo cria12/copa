@@ -1,21 +1,21 @@
-# ⚽ Resumo do Jogo: Holanda 2 - 2 Suécia
+# ⚽ Resumo do Jogo: Holanda 5 - 1 Suécia
 **Data:** 20 de Junho de 2026  
 **Estádio:** Dallas Stadium (Dallas, TX)  
 **Fase:** Fase de Grupos - Grupo F
 
 ## 📝 Visão Geral do Jogo
-Em um dos jogos mais emocionantes da Copa até aqui, **Holanda** e **Suécia** empataram em **2 a 2**. Em um confronto aberto e cheio de alternativas táticas, as duas seleções mostraram grande poder ofensivo e agradaram o público em Dallas.
+A **Holanda** atropelou a **Suécia** com uma goleada avassaladora de **5 a 1** em Houston. Com atuações espetaculares de Brian Brobbey and Cody Gakpo, que marcaram dois gols cada, o ataque holandês triturou o sistema defensivo sueco e assumiu a liderança do Grupo F.
 
 ## ⚽ Marcadores e Lances Importantes
-- **Gols da Holanda**: Cody Gakpo (33'), Memphis Depay (69')
-- **Gols da Suécia**: Alexander Isak (41'), Viktor Gyökeres (85')
+- **Gols da Holanda**: Brian Brobbey (5', 17'), Cody Gakpo (47', 54'), Crysencio Summerville (89')
+- **Gols da Suécia**: Anthony Elanga (59')
 
 ## 🔑 Momentos Decisivos
-- **Cody Gakpo** colocou os Países Baixos na frente aos 33 minutos com um belo chute da entrada da área.
-- A Suécia respondeu aos 41 minutos com **Alexander Isak**, empatando o confronto após passe açucareiro de Dejan Kulusevski.
-- **Memphis Depay** recolocou a Holanda na frente convertendo um pênalti aos 69 minutos.
-- O atacante sensação **Viktor Gyökeres** garantiu o empate sueco aos 85 minutos com uma cabeçada cirúrgica após cruzamento de Emil Forsberg.
-- Ambas as seleções chegam a 4 pontos e lideram de forma conjunta o Grupo F.
+- **Brian Brobbey** abriu o placar logo aos 5 minutos e fez o segundo aos 17' com conclusões precisas de cabeça.
+- Logo no início do segundo tempo, **Cody Gakpo** fez o terceiro gol holandês aos 47' e marcou o quarto aos 54 minutos.
+- A Suécia reduziu a desvantagem aos 59 minutos com gol de **Anthony Elanga** em rápida corrida.
+- Nos minutos finais (89'), **Crysencio Summerville** fechou a contagem em 5 a 1 com um chute cruzado.
+- A vitória monumental levou os holandeses aos 4 pontos, assumindo a liderança do Grupo F.
 
 ---
 *Atualizado automaticamente via Copa Bot.*

@@ -1,21 +1,21 @@
-# ⚽ Resumo do Jogo: Brasil 5 - 0 Haiti
+# ⚽ Resumo do Jogo: Brasil 3 - 0 Haiti
 **Data:** 19 de Junho de 2026  
-**Estádio:** MetLife Stadium (New York/New Jersey)  
+**Estádio:** Lincoln Financial Field (Philadelphia, PA)  
 **Fase:** Fase de Grupos - Grupo C
 
 ## 📝 Visão Geral do Jogo
-O **Brasil** atropelou a seleção do **Haiti** no MetLife Stadium com uma goleada de **5 a 0**. Sob o comando de Vinícius Júnior e com uma atuação inspirada do jovem Endrick, a Seleção Brasileira se recuperou do empate na estreia e deu um show para a torcida brasileira em Nova Jersey.
+O **Brasil** goleou a seleção do **Haiti** por **3 a 0** em Filadélfia. A seleção canarinho resolveu o jogo de forma avassaladora na primeira etapa com dois gols do atacante Matheus Cunha e um de Vinícius Júnior. O placar de 3 a 0 decretou a eliminação matemática da seleção do Haiti do torneio.
 
 ## ⚽ Marcadores e Lances Importantes
-- **Gols do Brasil**: Vinícius Júnior (8'), Rodrygo (23'), Endrick (55', 72'), Gabriel Martinelli (87')
+- **Gols do Brasil**: Matheus Cunha (23', 36'), Vinícius Júnior (45+3')
 - **Gols do Haiti**: Nenhum
 
 ## 🔑 Momentos Decisivos
-- **Vinícius Júnior** abriu o placar logo aos 8 minutos após uma arrancada espetacular pela ponta esquerda e finalização cruzada.
-- **Rodrygo** ampliou aos 23 minutos, completando de primeira um cruzamento preciso de Bruno Guimarães.
-- O jovem **Endrick** entrou no segundo tempo e marcou duas vezes (55' e 72'), demonstrando enorme oportunismo dentro da área.
-- **Gabriel Martinelli** fechou a goleada aos 87 minutos com um belo chute colocado após assistência de Savinho.
-- O Brasil agora tem 4 pontos no Grupo C e decide a liderança na última rodada contra a Escócia.
+- Aos 23 minutos, **Matheus Cunha** aproveitou assistência certeira e finalizou de chapa para abrir o placar do confronto.
+- Aos 36 minutos, novamente **Matheus Cunha** apareceu de forma oportuna para escorar o passe de Rodrygo e ampliar a contagem.
+- Nos acréscimos do primeiro tempo (45+3'), **Vinícius Júnior** aproveitou rebote do goleiro haitiano e guardou o terceiro gol.
+- No segundo tempo, o técnico brasileiro promoveu várias substituições para poupar o elenco fisicamente.
+- Com o revés de 3 a 0, a seleção do Haiti deu adeus às chances de classificação para as oitavas de final.
 
 ---
 *Atualizado automaticamente via Copa Bot.*

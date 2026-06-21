@@ -1,20 +1,21 @@
-# ⚽ Resumo do Jogo: Estados Unidos 2 - 1 Austrália
+# ⚽ Resumo do Jogo: Estados Unidos 2 - 0 Austrália
 **Data:** 19 de Junho de 2026  
-**Estádio:** SoFi Stadium (Los Angeles, CA)  
+**Estádio:** Seattle Stadium (Seattle, WA)  
 **Fase:** Fase de Grupos - Grupo D
 
 ## 📝 Visão Geral do Jogo
-Em uma partida eletrizante no SoFi Stadium, os **Estados Unidos** venceram a **Austrália** por **2 a 1**. Com grande presença da torcida local, a seleção norte-americana controlou o ritmo no início, mas teve que suar no segundo tempo para garantir os três pontos após uma forte reação dos australianos.
+Os **Estados Unidos** conquistaram uma vitória sólida por **2 a 0** contra a **Austrália** no Seattle Stadium. Com amplo controle das ações de ataque, a seleção americana encaminhou o placar ainda no primeiro tempo com um gol contra e um belo cabeceio de Alex Freeman. Com este triunfo, a seleção norte-americana carimbou a classificação para a fase eliminatória da Copa.
 
 ## ⚽ Marcadores e Lances Importantes
-- **Gols dos Estados Unidos**: Christian Pulisic (24'), Folarin Balogun (71')
-- **Gols da Austrália**: Mitchell Duke (45')
+- **Gols dos Estados Unidos**: Cameron Burgess (11', gol contra), Alex Freeman (43')
+- **Gols da Austrália**: Nenhum
 
 ## 🔑 Momentos Decisivos
-- Aos 24 minutos, **Christian Pulisic** abriu o placar com um belo chute de chapa após cruzamento rasteiro de Weston McKennie.
-- A Austrália empatou no final da primeira etapa com **Mitchell Duke**, aproveitando um rebote de cabeça na pequena área.
-- O gol da vitória americana saiu aos 71 minutos, quando **Folarin Balogun** recebeu um passe açucarado de Gio Reyna e tocou na saída do goleiro.
-- A vitória deixa os EUA na liderança provisória do Grupo D com 6 pontos.
+- Aos 11 minutos, após cruzamento rasteiro na área, o zagueiro australiano **Cameron Burgess** tentou interceptar e marcou contra.
+- Aos 43 minutos, o defensor americano **Alex Freeman** subiu soberano na área e testou firme no ângulo para fazer 2 a 0 de cabeça após escanteio.
+- No segundo tempo, a seleção dos EUA administrou o resultado com excelente controle de posse de bola e forte marcação.
+- A Austrália tentou pressionar pelas pontas, mas não conseguiu quebrar o forte bloqueio defensivo americano.
+- A vitória garantiu a classificação matemática antecipada dos Estados Unidos no mata-mata da competição.
 
 ---
 *Atualizado automaticamente via Copa Bot.*

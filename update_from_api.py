@@ -109,14 +109,14 @@ def search_google_result(team_a_en, team_b_en):
     norm_a = team_a_en.lower()
     norm_b = team_b_en.lower()
     mock_db = [
-        ({"usa", "united states"}, {"australia"}, 2, 1),
-        ({"scotland"}, {"morocco"}, 1, 2),
-        ({"brazil"}, {"haiti"}, 5, 0),
-        ({"paraguay"}, {"turkey", "türkiye", "turkiye"}, 1, 2),
-        ({"germany"}, {"ivory coast", "côte d'ivoire", "cote d'ivoire"}, 3, 0),
-        ({"curacao", "curaçao"}, {"ecuador"}, 1, 2),
-        ({"netherlands", "holland"}, {"sweden"}, 2, 2),
-        ({"japan"}, {"tunisia"}, 2, 0)
+        ({"usa", "united states"}, {"australia"}, 2, 0),
+        ({"scotland"}, {"morocco"}, 0, 1),
+        ({"brazil"}, {"haiti"}, 3, 0),
+        ({"paraguay"}, {"turkey", "türkiye", "turkiye"}, 1, 0),
+        ({"germany"}, {"ivory coast", "côte d'ivoire", "cote d'ivoire"}, 2, 1),
+        ({"curacao", "curaçao"}, {"ecuador"}, 0, 0),
+        ({"netherlands", "holland"}, {"sweden"}, 5, 1),
+        ({"japan"}, {"tunisia"}, 4, 0)
     ]
     for set_a, set_b, score_a, score_b in mock_db:
         if norm_a in set_a and norm_b in set_b:

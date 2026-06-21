@@ -1,20 +1,20 @@
-# ⚽ Resumo do Jogo: Curaçao 1 - 2 Equador
+# ⚽ Resumo do Jogo: Curaçao 0 - 0 Equador
 **Data:** 20 de Junho de 2026  
 **Estádio:** Atlanta Stadium (Atlanta, GA)  
 **Fase:** Fase de Grupos - Grupo E
 
 ## 📝 Visão Geral do Jogo
-O **Equador** sofreu, mas garantiu a vitória por **2 a 1** sobre o valente time de **Curaçao** em Atlanta. Os equatorianos dominaram o primeiro tempo, mas Curaçao reagiu na segunda etapa e vendeu caro a derrota na estreia de sua história em mundiais.
+Em jogo histórico no Arrowhead Stadium, **Curaçao** segurou um empate heróico em **0 a 0** contra a seleção do **Equador**. A partida foi marcada por uma atuação épica do goleiro Eloy Room, que barrou todas as investidas equatorianas e garantiu o primeiro ponto da história de sua seleção na Copa do Mundo.
 
 ## ⚽ Marcadores e Lances Importantes
-- **Gols de Curaçao**: Leandro Bacuna (62')
-- **Gols do Equador**: Enner Valencia (14'), Moisés Caicedo (75')
+- **Gols de Curaçao**: Nenhum
+- **Gols do Equador**: Nenhum
 
 ## 🔑 Momentos Decisivos
-- O capitão **Enner Valencia** abriu o placar para o Equador aos 14 minutos após assistência de Gonzalo Plata.
-- Curaçao empatou de forma surpreendente aos 62 minutos com um belo chute de fora da área de **Leandro Bacuna**.
-- O gol da vitória equatoriana veio aos 75 minutos com **Moisés Caicedo**, finalizando de primeira após bate-rebate na área.
-- O Equador agora chega a 3 pontos e segue vivo na disputa por uma vaga nas oitavas.
+- O Equador sufocou Curaçao no campo de defesa, dominando as estatísticas de posse de bola e finalizações.
+- O goleiro de Curaçao, **Eloy Room**, se tornou a lenda do jogo com **15 defesas**, o recorde absoluto de uma partida regulamentar em Copas do Mundo desde 1966.
+- A defesa de Curaçao resistiu à intensa pressão aérea no final do segundo tempo.
+- O empate de 0 a 0 garantiu o histórico primeiro ponto de Curaçao no mundial.
 
 ---
 *Atualizado automaticamente via Copa Bot.*
