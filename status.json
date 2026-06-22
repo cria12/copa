@@ -331,8 +331,35 @@
         "Espanha",
         "Arábia Saudita"
       ],
-      "score": "2-2",
+      "score": "4-0",
       "summary_file": "partidas/20260621_spain_saudiarabia.md"
+    },
+    "20260621_belgium_iran": {
+      "date": "2026-06-21",
+      "teams": [
+        "Bélgica",
+        "Irã"
+      ],
+      "score": "0-0",
+      "summary_file": "partidas/20260621_belgium_iran.md"
+    },
+    "20260621_capeverde_uruguay": {
+      "date": "2026-06-21",
+      "teams": [
+        "Cabo Verde",
+        "Uruguai"
+      ],
+      "score": "2-2",
+      "summary_file": "partidas/20260621_capeverde_uruguay.md"
+    },
+    "20260621_egypt_newzealand": {
+      "date": "2026-06-21",
+      "teams": [
+        "Egito",
+        "Nova Zelândia"
+      ],
+      "score": "3-1",
+      "summary_file": "partidas/20260621_egypt_newzealand.md"
     }
   }
 }
