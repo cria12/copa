@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-22T04:25:08Z",
+  "last_check": "2026-06-22T10:39:46Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -324,6 +324,15 @@
       ],
       "score": "4-0",
       "summary_file": "partidas/20260620_japan_tunisia.md"
+    },
+    "20260621_spain_saudiarabia": {
+      "date": "2026-06-21",
+      "teams": [
+        "Espanha",
+        "Arábia Saudita"
+      ],
+      "score": "2-2",
+      "summary_file": "partidas/20260621_spain_saudiarabia.md"
     }
   }
 }

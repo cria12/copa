@@ -1133,6 +1133,31 @@ O **Japão** goleou a **Tunísia** por **4 a 0** em Monterrey, no histórico mil
 ---
 *Atualizado automaticamente via Copa Bot.*
 `
+    },
+    {
+      id: "20260621_spain_saudiarabia",
+      date: "2026-06-21",
+      group: "H",
+      teamA: { name: "Espanha", code: "es" },
+      teamB: { name: "Arábia Saudita", code: "sa" },
+      score: "2-2",
+      venue: "Seattle Stadium (Seattle)",
+      summary_md: `# ⚽ Resumo do Jogo: Espanha 2 - 2 Arábia Saudita
+**Data:** 21 de Junho de 2026  
+**Estádio:** Seattle Stadium (Seattle)  
+**Fase:** Fase de Grupos - Grupo H
+
+## 📝 Visão Geral do Jogo
+A partida terminou empatada em **2 a 2**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo H.
+
+## 📊 Resultado Final
+| Espanha | Placar | Arábia Saudita |
+|:---:|:---:|:---:|
+| 2 | X | 2 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -1153,15 +1178,6 @@ O **Japão** goleou a **Tunísia** por **4 a 0** em Monterrey, no histórico mil
       teamA: { name: "Egito", code: "eg" },
             teamB: { name: "Nova Zelândia", code: "nz" },
       venue: "Kansas City Stadium (Kansas City)"
-    },
-    {
-      id: "20260621_spain_saudiarabia",
-      date: "21/06/2026",
-      time: "17:00",
-      group: "H",
-      teamA: { name: "Espanha", code: "es" },
-            teamB: { name: "Arábia Saudita", code: "sa" },
-      venue: "Seattle Stadium (Seattle)"
     },
     {
       id: "20260621_capeverde_uruguay",
