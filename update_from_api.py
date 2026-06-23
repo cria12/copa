@@ -116,7 +116,9 @@ def search_google_result(team_a_en, team_b_en):
         ({"germany"}, {"ivory coast", "côte d'ivoire", "cote d'ivoire"}, 2, 1),
         ({"curacao", "curaçao"}, {"ecuador"}, 0, 0),
         ({"netherlands", "holland"}, {"sweden"}, 5, 1),
-        ({"japan"}, {"tunisia"}, 4, 0)
+        ({"japan"}, {"tunisia"}, 4, 0),
+        ({"iraq"}, {"france"}, 0, 3),
+        ({"senegal"}, {"norway"}, 2, 3),
     ]
     for set_a, set_b, score_a, score_b in mock_db:
         if norm_a in set_a and norm_b in set_b:

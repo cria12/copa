@@ -378,6 +378,24 @@
       ],
       "score": "2-1",
       "summary_file": "partidas/20260622_algeria_jordan.md"
+    },
+    "20260628_iraq_france": {
+      "date": "2026-06-22",
+      "teams": [
+        "Iraque",
+        "França"
+      ],
+      "score": "0-3",
+      "summary_file": "partidas/20260628_iraq_france.md"
+    },
+    "20260628_senegal_norway": {
+      "date": "2026-06-22",
+      "teams": [
+        "Senegal",
+        "Noruega"
+      ],
+      "score": "2-3",
+      "summary_file": "partidas/20260628_senegal_norway.md"
     }
   }
 }

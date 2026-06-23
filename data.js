@@ -644,7 +644,7 @@ A Áustria iniciou sua trajetória na Copa do Mundo de 2026 vencendo a Jordânia
       id: "20260617_portugal_drcongo",
       date: "2026-06-17",
       group: "K",
-      teamA: { name: "Portugal", code: "un" },
+      teamA: { name: "Portugal", code: "pt" },
       teamB: { name: "RD Congo", code: "cd" },
       score: "1-1",
       venue: "NRG Stadium (Houston, TX)",
@@ -1317,6 +1317,70 @@ De virada, a **Argélia** derrotou a estreante **Jordânia** por **2 a 1** na Ca
 ---
 *Atualizado automaticamente via Copa Bot.*
 `
+    },
+    {
+      id: "20260628_iraq_france",
+      date: "2026-06-22",
+      group: "I",
+      teamA: { name: "Iraque", code: "iq" },
+      teamB: { name: "França", code: "fr" },
+      score: "0-3",
+      venue: "Philadelphia Stadium (Filadélfia, PA)",
+      summary_md: `# ⚽ Resumo do Jogo: Iraque 0 - 3 França
+**Data:** 22 de Junho de 2026  
+**Estádio:** Philadelphia Stadium (Filadélfia, PA)  
+**Fase:** Fase de Grupos - Grupo I
+
+## 📝 Visão Geral do Jogo
+A **França** goleou o **Iraque** por **3 a 0** em Filadélfia, numa exibição dominante que confirmou a classificação dos Les Bleus para a fase de mata-mata da Copa do Mundo de 2026. Apesar de uma interrupção por tempestade durante o jogo, a equipa francesa mostrou-se imparável com destaque absoluto para Kylian Mbappé, autor de um bis.
+
+## ⚽ Marcadores e Lances Importantes
+- **Gols da França**: Kylian Mbappé (14', 54'), Ousmane Dembélé (66')
+- **Gols do Iraque**: Nenhum
+- **Incidente**: O jogo sofreu uma interrupção devido a tempestade com raios na região de Filadélfia
+
+## 🔑 Momentos Decisivos
+- Logo aos 14 minutos, **Kylian Mbappé** abriu o placar com uma finalização precisa após jogada rápida pela esquerda, deixando a defesa iraquiana sem reação.
+- No início do segundo tempo, aos 54', **Mbappé** voltou a marcar — desta vez de dentro da área após passe filtrado — ampliando a vantagem francesa e praticamente selando o resultado.
+- Aos 66 minutos, **Ousmane Dembélé** fechou a conta com um belo chute de fora da área, coroando a exibição coletiva da França.
+- A partida foi interrompida temporariamente no segundo tempo devido a uma forte tempestade com raios, mas foi retomada sem maiores problemas.
+- Com a vitória, a França garantiu vaga no mata-mata do Grupo I com 6 pontos.
+
+---
+*Atualizado automaticamente via Copa Bot.*
+`
+    },
+    {
+      id: "20260628_senegal_norway",
+      date: "2026-06-22",
+      group: "I",
+      teamA: { name: "Senegal", code: "sn" },
+      teamB: { name: "Noruega", code: "no" },
+      score: "2-3",
+      venue: "Gillette Stadium (Boston)",
+      summary_md: `# ⚽ Resumo do Jogo: Senegal 2 - 3 Noruega
+**Data:** 22 de Junho de 2026  
+**Estádio:** MetLife Stadium (New York/New Jersey)  
+**Fase:** Fase de Grupos - Grupo I
+
+## 📝 Visão Geral do Jogo
+A **Noruega** venceu o **Senegal** por **3 a 2** num jogo emocionante e repleto de alternâncias no MetLife Stadium, em New York/New Jersey. Erling Haaland foi o grande destaque com dois gols, enquanto Ismaïla Sarr manteve o Senegal vivo com um bis também. A vitória garantiu a classificação da Noruega para a fase eliminatória da Copa do Mundo de 2026.
+
+## ⚽ Marcadores e Lances Importantes
+- **Gols da Noruega**: Erling Haaland (2 gols), Marcus Holmgren Pedersen (1 gol)
+- **Gols do Senegal**: Ismaïla Sarr (2 gols)
+
+## 🔑 Momentos Decisivos
+- **Erling Haaland** abriu o placar para a Noruega com uma cabeçada poderosa, aproveitando um cruzamento preciso da direita.
+- O Senegal não se rendeu e **Ismaïla Sarr** empatou rapidamente com uma finalização rasteira no canto esquerdo do goleiro norueguês.
+- Haaland voltou a marcar no segundo tempo, se livrando da marcação com um corpo a corpo e batendo na saída do goleiro — demonstrando por que é um dos maiores centroavantes do mundo.
+- **Sarr** manteve a esperança senegalesa com seu segundo gol, reduzindo a diferença e eletrizando a torcida africana no estádio.
+- O gol decisivo veio de **Marcus Holmgren Pedersen**, que aproveitou uma jogada confusa na área para empurrar a bola para o fundo das redes e selar a vitória norueguesa.
+- Com o resultado, a Noruega garantiu vaga no mata-mata com 6 pontos no Grupo I, enquanto o Senegal ficou em situação difícil.
+
+---
+*Atualizado automaticamente via Copa Bot.*
+`
     }
   ],
   upcoming_matches: [
@@ -1517,24 +1581,6 @@ De virada, a **Argélia** derrotou a estreante **Jordânia** por **2 a 1** na Ca
       teamA: { name: "Cabo Verde", code: "cv" },
             teamB: { name: "Arábia Saudita", code: "sa" },
       venue: "Boston Stadium (Boston)"
-    },
-    {
-      id: "20260628_iraq_france",
-      date: "22/06/2026",
-      time: "22:00",
-      group: "I",
-      teamA: { name: "Iraque", code: "iq" },
-            teamB: { name: "França", code: "fr" },
-      venue: "MetLife Stadium (New York/New Jersey)"
-    },
-    {
-      id: "20260628_senegal_norway",
-      date: "23/06/2026",
-      time: "01:00",
-      group: "I",
-      teamA: { name: "Senegal", code: "sn" },
-            teamB: { name: "Noruega", code: "no" },
-      venue: "Gillette Stadium (Boston)"
     },
     {
       id: "20260628_jordan_argentina",

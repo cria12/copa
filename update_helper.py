@@ -135,7 +135,7 @@ def rebuild_data_js(base_dir, current_date):
         {"id": "20260627_egypt_iran", "date": "27/06/2026", "time": "04:00", "group": "G", "teamA": {"name": "Egito", "code": "eg"}, "teamB": {"name": "Irã", "code": "ir"}, "venue": "Kansas City Stadium (Kansas City)"},
         {"id": "20260627_uruguay_spain", "date": "27/06/2026", "time": "01:00", "group": "H", "teamA": {"name": "Uruguai", "code": "uy"}, "teamB": {"name": "Espanha", "code": "es"}, "venue": "Seattle Stadium (Seattle)"},
         {"id": "20260627_capeverde_saudiarabia", "date": "27/06/2026", "time": "01:00", "group": "H", "teamA": {"name": "Cabo Verde", "code": "cv"}, "teamB": {"name": "Arábia Saudita", "code": "sa"}, "venue": "Boston Stadium (Boston)"},
-        {"id": "20260628_iraq_france", "date": "22/06/2026", "time": "22:00", "group": "I", "teamA": {"name": "Iraque", "code": "iq"}, "teamB": {"name": "França", "code": "fr"}, "venue": "MetLife Stadium (New York/New Jersey)"},
+        {"id": "20260628_iraq_france", "date": "22/06/2026", "time": "22:00", "group": "I", "teamA": {"name": "Iraque", "code": "iq"}, "teamB": {"name": "França", "code": "fr"}, "venue": "Philadelphia Stadium (Filadélfia, PA)"},
         {"id": "20260628_senegal_norway", "date": "23/06/2026", "time": "01:00", "group": "I", "teamA": {"name": "Senegal", "code": "sn"}, "teamB": {"name": "Noruega", "code": "no"}, "venue": "Gillette Stadium (Boston)"},
         {"id": "20260628_jordan_argentina", "date": "28/06/2026", "time": "03:00", "group": "J", "teamA": {"name": "Jordânia", "code": "jo"}, "teamB": {"name": "Argentina", "code": "ar"}, "venue": "Kansas City Stadium (Kansas City)"},
         {"id": "20260628_algeria_austria", "date": "28/06/2026", "time": "03:00", "group": "J", "teamA": {"name": "Argélia", "code": "dz"}, "teamB": {"name": "Áustria", "code": "at"}, "venue": "San Francisco Stadium (Santa Clara)"},
@@ -156,7 +156,8 @@ def rebuild_data_js(base_dir, current_date):
         "Arábia Saudita": "sa", "Uruguai": "uy", "Irã": "ir", "Nova Zelândia": "nz",
         "França": "fr", "Senegal": "sn", "Noruega": "no", "Iraque": "iq", "Argentina": "ar",
         "Argélia": "dz", "Áustria": "at", "Jordânia": "jo", "Inglaterra": "gb-eng", "Croácia": "hr",
-        "Gana": "gh", "Panamá": "pa", "Uzbequistão": "uz", "Colômbia": "co", "RD Congo": "cd"
+        "Gana": "gh", "Panamá": "pa", "Uzbequistão": "uz", "Colômbia": "co", "RD Congo": "cd",
+        "Portugal": "pt"
     }
 
     # Estádios padrão para os já jogados
