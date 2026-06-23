@@ -360,6 +360,24 @@
       ],
       "score": "3-1",
       "summary_file": "partidas/20260621_egypt_newzealand.md"
+    },
+    "20260622_argentina_austria": {
+      "date": "2026-06-22",
+      "teams": [
+        "Argentina",
+        "Áustria"
+      ],
+      "score": "2-0",
+      "summary_file": "partidas/20260622_argentina_austria.md"
+    },
+    "20260622_algeria_jordan": {
+      "date": "2026-06-22",
+      "teams": [
+        "Argélia",
+        "Jordânia"
+      ],
+      "score": "2-1",
+      "summary_file": "partidas/20260622_algeria_jordan.md"
     }
   }
 }
