@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-23T12:34:18Z",
+  "last_check": "2026-06-26T08:58:05Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -396,6 +396,150 @@
       ],
       "score": "2-3",
       "summary_file": "partidas/20260628_senegal_norway.md"
+    },
+    "20260623_portugal_uzbekistan": {
+      "date": "2026-06-23",
+      "teams": [
+        "Portugal",
+        "Uzbequistão"
+      ],
+      "score": "5-0",
+      "summary_file": "partidas/20260623_portugal_uzbekistan.md"
+    },
+    "20260623_drcongo_colombia": {
+      "date": "2026-06-23",
+      "teams": [
+        "RD Congo",
+        "Colômbia"
+      ],
+      "score": "0-1",
+      "summary_file": "partidas/20260623_drcongo_colombia.md"
+    },
+    "20260623_england_ghana": {
+      "date": "2026-06-23",
+      "teams": [
+        "Inglaterra",
+        "Gana"
+      ],
+      "score": "0-0",
+      "summary_file": "partidas/20260623_england_ghana.md"
+    },
+    "20260623_croatia_panama": {
+      "date": "2026-06-23",
+      "teams": [
+        "Croácia",
+        "Panamá"
+      ],
+      "score": "1-0",
+      "summary_file": "partidas/20260623_croatia_panama.md"
+    },
+    "20260624_czechia_mexico": {
+      "date": "2026-06-24",
+      "teams": [
+        "Tchéquia",
+        "México"
+      ],
+      "score": "0-3",
+      "summary_file": "partidas/20260624_czechia_mexico.md"
+    },
+    "20260624_southafrica_southkorea": {
+      "date": "2026-06-24",
+      "teams": [
+        "África do Sul",
+        "Coreia do Sul"
+      ],
+      "score": "1-0",
+      "summary_file": "partidas/20260624_southafrica_southkorea.md"
+    },
+    "20260624_bosnia_qatar": {
+      "date": "2026-06-24",
+      "teams": [
+        "Bósnia e Herzegovina",
+        "Catar"
+      ],
+      "score": "3-1",
+      "summary_file": "partidas/20260624_bosnia_qatar.md"
+    },
+    "20260624_switzerland_canada": {
+      "date": "2026-06-24",
+      "teams": [
+        "Suíça",
+        "Canadá"
+      ],
+      "score": "2-1",
+      "summary_file": "partidas/20260624_switzerland_canada.md"
+    },
+    "20260625_morocco_haiti": {
+      "date": "2026-06-24",
+      "teams": [
+        "Marrocos",
+        "Haiti"
+      ],
+      "score": "4-2",
+      "summary_file": "partidas/20260625_morocco_haiti.md"
+    },
+    "20260625_scotland_brazil": {
+      "date": "2026-06-24",
+      "teams": [
+        "Escócia",
+        "Brasil"
+      ],
+      "score": "0-3",
+      "summary_file": "partidas/20260625_scotland_brazil.md"
+    },
+    "20260625_turkiye_usa": {
+      "date": "2026-06-25",
+      "teams": [
+        "Turquia",
+        "Estados Unidos"
+      ],
+      "score": "3-2",
+      "summary_file": "partidas/20260625_turkiye_usa.md"
+    },
+    "20260625_paraguay_australia": {
+      "date": "2026-06-25",
+      "teams": [
+        "Paraguai",
+        "Austrália"
+      ],
+      "score": "0-0",
+      "summary_file": "partidas/20260625_paraguay_australia.md"
+    },
+    "20260626_ecuador_germany": {
+      "date": "2026-06-25",
+      "teams": [
+        "Equador",
+        "Alemanha"
+      ],
+      "score": "2-1",
+      "summary_file": "partidas/20260626_ecuador_germany.md"
+    },
+    "20260626_curacao_ivorycoast": {
+      "date": "2026-06-25",
+      "teams": [
+        "Curaçao",
+        "Costa do Marfim"
+      ],
+      "score": "0-2",
+      "summary_file": "partidas/20260626_curacao_ivorycoast.md"
+    },
+    "20260626_tunisia_netherlands": {
+      "date": "2026-06-25",
+      "teams": [
+        "Tunísia",
+        "Holanda"
+      ],
+      "score": "1-3",
+      "summary_file": "partidas/20260626_tunisia_netherlands.md"
+    },
+    "20260626_japan_sweden": {
+      "date": "2026-06-25",
+      "teams": [
+        "Japão",
+        "Suécia"
+      ],
+      "score": "1-1",
+      "summary_file": "partidas/20260626_japan_sweden.md"
     }
   }
 }

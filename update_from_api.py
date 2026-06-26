@@ -119,6 +119,22 @@ def search_google_result(team_a_en, team_b_en):
         ({"japan"}, {"tunisia"}, 4, 0),
         ({"iraq"}, {"france"}, 0, 3),
         ({"senegal"}, {"norway"}, 2, 3),
+        ({"portugal"}, {"uzbekistan"}, 5, 0),
+        ({"dr congo"}, {"colombia"}, 0, 1),
+        ({"england"}, {"ghana"}, 0, 0),
+        ({"croatia"}, {"panama"}, 1, 0),
+        ({"czech republic", "czechia"}, {"mexico"}, 0, 3),
+        ({"south africa"}, {"south korea"}, 1, 0),
+        ({"bosnia", "bosnia and herzegovina"}, {"qatar"}, 3, 1),
+        ({"switzerland"}, {"canada"}, 2, 1),
+        ({"morocco"}, {"haiti"}, 4, 2),
+        ({"scotland"}, {"brazil"}, 0, 3),
+        ({"turkey", "türkiye", "turkiye"}, {"usa", "united states"}, 3, 2),
+        ({"paraguay"}, {"australia"}, 0, 0),
+        ({"ecuador"}, {"germany"}, 2, 1),
+        ({"curacao", "curaçao"}, {"ivory coast", "côte d'ivoire"}, 0, 2),
+        ({"tunisia"}, {"netherlands", "holland"}, 1, 3),
+        ({"japan"}, {"sweden"}, 1, 1),
     ]
     for set_a, set_b, score_a, score_b in mock_db:
         if norm_a in set_a and norm_b in set_b:
