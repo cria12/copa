@@ -1041,11 +1041,19 @@
         return;
       }
 
-      // Ordenar: jogos concluídos de forma decrescente (mais recentes primeiro), próximos de forma crescente
+      // Ordenar: jogos concluídos de forma decrescente (mais recentes primeiro), próximos por data+hora crescente
       if (currentTab === 'completed') {
         filtered.sort((a, b) => b.id.localeCompare(a.id));
       } else {
-        filtered.sort((a, b) => a.id.localeCompare(b.id));
+        // Ordenar próximos jogos por data e hora (cronológico)
+        filtered.sort((a, b) => {
+          const parseDateTime = (d, t) => {
+            const [day, month, year] = d.split('/');
+            const [hour, min] = t.split(':');
+            return new Date(year, month - 1, day, hour, min).getTime();
+          };
+          return parseDateTime(a.date, a.time) - parseDateTime(b.date, b.time);
+        });
       }
 
       filtered.forEach(match => {
@@ -1101,7 +1109,7 @@
         card.innerHTML = `
           <div class="match-header">
             <span>${displayDate}</span>
-            <span class="group-badge">Grupo ${match.group}</span>
+            <span class="group-badge">${match.group === 'R32' ? '⚔️ Eliminatórias' : 'Grupo ' + match.group}</span>
           </div>
           <div class="match-body">
             <div class="team-col">

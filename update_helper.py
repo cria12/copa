@@ -142,7 +142,23 @@ def rebuild_data_js(base_dir, current_date):
         {"id": "20260629_colombia_portugal", "date": "28/06/2026", "time": "00:30", "group": "K", "teamA": {"name": "Colômbia", "code": "co"}, "teamB": {"name": "Portugal", "code": "pt"}, "venue": "NRG Stadium (Houston, TX)"},
         {"id": "20260629_drcongo_uzbekistan", "date": "28/06/2026", "time": "00:30", "group": "K", "teamA": {"name": "RD Congo", "code": "cd"}, "teamB": {"name": "Uzbequistão", "code": "uz"}, "venue": "Mexico City Stadium (Cidade do México)"},
         {"id": "20260629_panama_england", "date": "27/06/2026", "time": "22:00", "group": "L", "teamA": {"name": "Panamá", "code": "pa"}, "teamB": {"name": "Inglaterra", "code": "gb-eng"}, "venue": "AT&T Stadium (Arlington, TX)"},
-        {"id": "20260629_croatia_ghana", "date": "27/06/2026", "time": "22:00", "group": "L", "teamA": {"name": "Croácia", "code": "hr"}, "teamB": {"name": "Gana", "code": "gh"}, "venue": "Toronto Stadium (Toronto)"}
+        {"id": "20260629_croatia_ghana", "date": "27/06/2026", "time": "22:00", "group": "L", "teamA": {"name": "Croácia", "code": "hr"}, "teamB": {"name": "Gana", "code": "gh"}, "venue": "Toronto Stadium (Toronto)"},
+        {"id": "R32_southafrica_canada", "date": "28/06/2026", "time": "22:00", "group": "R32", "teamA": {"name": "África do Sul", "code": "za"}, "teamB": {"name": "Canadá", "code": "ca"}, "venue": "SoFi Stadium (Los Angeles)"},
+        {"id": "R32_brazil_japan", "date": "29/06/2026", "time": "18:00", "group": "R32", "teamA": {"name": "Brasil", "code": "br"}, "teamB": {"name": "Japão", "code": "jp"}, "venue": "Houston Stadium (Houston)"},
+        {"id": "R32_germany_paraguay", "date": "29/06/2026", "time": "21:30", "group": "R32", "teamA": {"name": "Alemanha", "code": "de"}, "teamB": {"name": "Paraguai", "code": "py"}, "venue": "Gillette Stadium (Boston)"},
+        {"id": "R32_netherlands_morocco", "date": "29/06/2026", "time": "23:00", "group": "R32", "teamA": {"name": "Holanda", "code": "nl"}, "teamB": {"name": "Marrocos", "code": "ma"}, "venue": "Estadio Monterrey (Monterrey)"},
+        {"id": "R32_ivorycoast_norway", "date": "30/06/2026", "time": "18:00", "group": "R32", "teamA": {"name": "Costa do Marfim", "code": "ci"}, "teamB": {"name": "Noruega", "code": "no"}, "venue": "Dallas Stadium (Dallas)"},
+        {"id": "R32_france_sweden", "date": "30/06/2026", "time": "22:00", "group": "R32", "teamA": {"name": "França", "code": "fr"}, "teamB": {"name": "Suécia", "code": "se"}, "venue": "MetLife Stadium (New York/New Jersey)"},
+        {"id": "R32_mexico_ecuador", "date": "01/07/2026", "time": "02:00", "group": "R32", "teamA": {"name": "México", "code": "mx"}, "teamB": {"name": "Equador", "code": "ec"}, "venue": "Estadio Azteca (Cidade do México)"},
+        {"id": "R32_england_drcongo", "date": "01/07/2026", "time": "18:00", "group": "R32", "teamA": {"name": "Inglaterra", "code": "gb-eng"}, "teamB": {"name": "RD Congo", "code": "cd"}, "venue": "Atlanta Stadium (Atlanta)"},
+        {"id": "R32_belgium_senegal", "date": "01/07/2026", "time": "21:00", "group": "R32", "teamA": {"name": "Bélgica", "code": "be"}, "teamB": {"name": "Senegal", "code": "sn"}, "venue": "Seattle Stadium (Seattle)"},
+        {"id": "R32_usa_bosnia", "date": "02/07/2026", "time": "02:00", "group": "R32", "teamA": {"name": "Estados Unidos", "code": "us"}, "teamB": {"name": "Bósnia e Herzegovina", "code": "ba"}, "venue": "San Francisco Stadium (Santa Clara)"},
+        {"id": "R32_spain_austria", "date": "02/07/2026", "time": "18:00", "group": "R32", "teamA": {"name": "Espanha", "code": "es"}, "teamB": {"name": "Áustria", "code": "at"}, "venue": "SoFi Stadium (Los Angeles)"},
+        {"id": "R32_portugal_croatia", "date": "02/07/2026", "time": "21:00", "group": "R32", "teamA": {"name": "Portugal", "code": "pt"}, "teamB": {"name": "Croácia", "code": "hr"}, "venue": "Toronto Stadium (Toronto)"},
+        {"id": "R32_switzerland_algeria", "date": "03/07/2026", "time": "01:00", "group": "R32", "teamA": {"name": "Suíça", "code": "ch"}, "teamB": {"name": "Argélia", "code": "dz"}, "venue": "BC Place (Vancouver)"},
+        {"id": "R32_australia_egypt", "date": "03/07/2026", "time": "18:00", "group": "R32", "teamA": {"name": "Austrália", "code": "au"}, "teamB": {"name": "Egito", "code": "eg"}, "venue": "Philadelphia Stadium (Filadélfia)"},
+        {"id": "R32_argentina_capeverde", "date": "03/07/2026", "time": "21:00", "group": "R32", "teamA": {"name": "Argentina", "code": "ar"}, "teamB": {"name": "Cabo Verde", "code": "cv"}, "venue": "Kansas City Stadium (Kansas City)"},
+        {"id": "R32_colombia_ghana", "date": "04/07/2026", "time": "01:00", "group": "R32", "teamA": {"name": "Colômbia", "code": "co"}, "teamB": {"name": "Gana", "code": "gh"}, "venue": "Miami Stadium (Miami)"}
     ]
 
     # Mapeamento de códigos de países para reconstrução

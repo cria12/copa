@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-26T08:58:05Z",
+  "last_check": "2026-06-28T10:27:07Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -540,6 +540,114 @@
       ],
       "score": "1-1",
       "summary_file": "partidas/20260626_japan_sweden.md"
+    },
+    "20260622_france_norway": {
+      "date": "2026-06-26",
+      "teams": [
+        "França",
+        "Noruega"
+      ],
+      "score": "4-1",
+      "summary_file": "partidas/20260622_france_norway.md"
+    },
+    "20260622_senegal_iraq": {
+      "date": "2026-06-26",
+      "teams": [
+        "Senegal",
+        "Iraque"
+      ],
+      "score": "5-0",
+      "summary_file": "partidas/20260622_senegal_iraq.md"
+    },
+    "20260627_uruguay_spain": {
+      "date": "2026-06-26",
+      "teams": [
+        "Uruguai",
+        "Espanha"
+      ],
+      "score": "0-1",
+      "summary_file": "partidas/20260627_uruguay_spain.md"
+    },
+    "20260627_capeverde_saudiarabia": {
+      "date": "2026-06-26",
+      "teams": [
+        "Cabo Verde",
+        "Arábia Saudita"
+      ],
+      "score": "0-0",
+      "summary_file": "partidas/20260627_capeverde_saudiarabia.md"
+    },
+    "20260627_newzealand_belgium": {
+      "date": "2026-06-27",
+      "teams": [
+        "Nova Zelândia",
+        "Bélgica"
+      ],
+      "score": "1-5",
+      "summary_file": "partidas/20260627_newzealand_belgium.md"
+    },
+    "20260627_egypt_iran": {
+      "date": "2026-06-27",
+      "teams": [
+        "Egito",
+        "Irã"
+      ],
+      "score": "1-1",
+      "summary_file": "partidas/20260627_egypt_iran.md"
+    },
+    "20260629_panama_england": {
+      "date": "2026-06-27",
+      "teams": [
+        "Panamá",
+        "Inglaterra"
+      ],
+      "score": "0-2",
+      "summary_file": "partidas/20260629_panama_england.md"
+    },
+    "20260629_croatia_ghana": {
+      "date": "2026-06-27",
+      "teams": [
+        "Croácia",
+        "Gana"
+      ],
+      "score": "2-1",
+      "summary_file": "partidas/20260629_croatia_ghana.md"
+    },
+    "20260628_jordan_argentina": {
+      "date": "2026-06-27",
+      "teams": [
+        "Jordânia",
+        "Argentina"
+      ],
+      "score": "1-3",
+      "summary_file": "partidas/20260628_jordan_argentina.md"
+    },
+    "20260628_algeria_austria": {
+      "date": "2026-06-27",
+      "teams": [
+        "Argélia",
+        "Áustria"
+      ],
+      "score": "3-3",
+      "summary_file": "partidas/20260628_algeria_austria.md"
+    },
+    "20260629_colombia_portugal": {
+      "date": "2026-06-27",
+      "teams": [
+        "Colômbia",
+        "Portugal"
+      ],
+      "score": "0-0",
+      "summary_file": "partidas/20260629_colombia_portugal.md"
+    },
+    "20260629_drcongo_uzbekistan": {
+      "date": "2026-06-27",
+      "teams": [
+        "RD Congo",
+        "Uzbequistão"
+      ],
+      "score": "3-1",
+      "summary_file": "partidas/20260629_drcongo_uzbekistan.md"
     }
   }
 }
