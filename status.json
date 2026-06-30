@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-28T10:27:07Z",
+  "last_check": "2026-06-30T12:12:04Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -648,6 +648,42 @@
       ],
       "score": "3-1",
       "summary_file": "partidas/20260629_drcongo_uzbekistan.md"
+    },
+    "R32_southafrica_canada": {
+      "date": "2026-06-28",
+      "teams": [
+        "África do Sul",
+        "Canadá"
+      ],
+      "score": "0-1",
+      "summary_file": "partidas/R32_southafrica_canada.md"
+    },
+    "R32_brazil_japan": {
+      "date": "2026-06-29",
+      "teams": [
+        "Brasil",
+        "Japão"
+      ],
+      "score": "2-1",
+      "summary_file": "partidas/R32_brazil_japan.md"
+    },
+    "R32_germany_paraguay": {
+      "date": "2026-06-29",
+      "teams": [
+        "Alemanha",
+        "Paraguai"
+      ],
+      "score": "1-1 (3-4 GP)",
+      "summary_file": "partidas/R32_germany_paraguay.md"
+    },
+    "R32_netherlands_morocco": {
+      "date": "2026-06-29",
+      "teams": [
+        "Holanda",
+        "Marrocos"
+      ],
+      "score": "1-1 (2-3 GP)",
+      "summary_file": "partidas/R32_netherlands_morocco.md"
     }
   }
 }
