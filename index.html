@@ -1061,9 +1061,9 @@
         return;
       }
 
-      // Ordenar: jogos concluídos de forma crescente (do primeiro ao último), próximos por data+hora crescente
+      // Ordenar: jogos concluídos de forma decrescente (mais recentes no topo), próximos por data+hora crescente (mais próximos no topo)
       if (currentTab === 'completed') {
-        filtered.sort((a, b) => a.id.localeCompare(b.id));
+        filtered.sort((a, b) => b.id.localeCompare(a.id));
       } else {
         // Ordenar próximos jogos por data e hora (cronológico)
         filtered.sort((a, b) => {
