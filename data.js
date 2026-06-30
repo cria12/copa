@@ -2313,18 +2313,34 @@ O **Paraguai** chocou o mundo ao eliminar a **Alemanha** nos pênaltis por **4 a
 ---
 *Atualizado automaticamente via Copa Bot.*
 `
+    },
+    {
+      id: "R32_ivorycoast_norway",
+      date: "2026-06-30",
+      group: "R32",
+      teamA: { name: "Costa do Marfim", code: "ci" },
+      teamB: { name: "Noruega", code: "no" },
+      score: "2-2",
+      venue: "Dallas Stadium (Dallas)",
+      summary_md: `# ⚽ Resumo do Jogo: Costa do Marfim 2 - 2 Noruega
+**Data:** 30 de Junho de 2026  
+**Estádio:** Dallas Stadium (Dallas)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou empatada em **2 a 2**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Costa do Marfim | Placar | Noruega |
+|:---:|:---:|:---:|
+| 2 | X | 2 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
-    {
-      id: "R32_ivorycoast_norway",
-      date: "30/06/2026",
-      time: "18:00",
-      group: "R32",
-      teamA: { name: "Costa do Marfim", code: "ci" },
-            teamB: { name: "Noruega", code: "no" },
-      venue: "Dallas Stadium (Dallas)"
-    },
     {
       id: "R32_france_sweden",
       date: "30/06/2026",

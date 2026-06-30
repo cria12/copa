@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-06-30T17:07:17Z",
+  "last_check": "2026-06-30T21:40:05Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -684,6 +684,15 @@
       ],
       "score": "1-1 (2-3 GP)",
       "summary_file": "partidas/R32_netherlands_morocco.md"
+    },
+    "R32_ivorycoast_norway": {
+      "date": "2026-06-30",
+      "teams": [
+        "Costa do Marfim",
+        "Noruega"
+      ],
+      "score": "2-2",
+      "summary_file": "partidas/R32_ivorycoast_norway.md"
     }
   }
 }
