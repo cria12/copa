@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-04T16:03:50Z",
+  "last_check": "2026-07-04T20:59:07Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -702,6 +702,15 @@
       ],
       "score": "3-7",
       "summary_file": "partidas/R32_argentina_capeverde.md"
+    },
+    "R32_spain_austria": {
+      "date": "2026-07-02",
+      "teams": [
+        "Espanha",
+        "Áustria"
+      ],
+      "score": "0-8",
+      "summary_file": "partidas/R32_spain_austria.md"
     }
   }
 }

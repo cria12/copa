@@ -2363,6 +2363,31 @@ A partida terminou com vitória de **Cabo Verde** por **7 a 3**. O confronto foi
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_spain_austria",
+      date: "2026-07-02",
+      group: "R32",
+      teamA: { name: "Espanha", code: "es" },
+      teamB: { name: "Áustria", code: "at" },
+      score: "0-8",
+      venue: "SoFi Stadium (Los Angeles)",
+      summary_md: `# ⚽ Resumo do Jogo: Espanha 0 - 8 Áustria
+**Data:** 2 de Julho de 2026  
+**Estádio:** SoFi Stadium (Los Angeles)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Áustria** por **8 a 0**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Espanha | Placar | Áustria |
+|:---:|:---:|:---:|
+| 0 | X | 8 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2410,15 +2435,6 @@ A partida terminou com vitória de **Cabo Verde** por **7 a 3**. O confronto foi
       teamA: { name: "Estados Unidos", code: "us" },
             teamB: { name: "Bósnia e Herzegovina", code: "ba" },
       venue: "San Francisco Stadium (Santa Clara)"
-    },
-    {
-      id: "R32_spain_austria",
-      date: "02/07/2026",
-      time: "18:00",
-      group: "R32",
-      teamA: { name: "Espanha", code: "es" },
-            teamB: { name: "Áustria", code: "at" },
-      venue: "SoFi Stadium (Los Angeles)"
     },
     {
       id: "R32_portugal_croatia",
