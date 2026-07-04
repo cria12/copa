@@ -2338,6 +2338,31 @@ A partida terminou empatada em **2 a 2**. O confronto foi válido pela fase de g
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_argentina_capeverde",
+      date: "2026-07-03",
+      group: "R32",
+      teamA: { name: "Argentina", code: "ar" },
+      teamB: { name: "Cabo Verde", code: "cv" },
+      score: "3-7",
+      venue: "Kansas City Stadium (Kansas City)",
+      summary_md: `# ⚽ Resumo do Jogo: Argentina 3 - 7 Cabo Verde
+**Data:** 3 de Julho de 2026  
+**Estádio:** Kansas City Stadium (Kansas City)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Cabo Verde** por **7 a 3**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Argentina | Placar | Cabo Verde |
+|:---:|:---:|:---:|
+| 3 | X | 7 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2421,15 +2446,6 @@ A partida terminou empatada em **2 a 2**. O confronto foi válido pela fase de g
       teamA: { name: "Austrália", code: "au" },
             teamB: { name: "Egito", code: "eg" },
       venue: "Philadelphia Stadium (Filadélfia)"
-    },
-    {
-      id: "R32_argentina_capeverde",
-      date: "03/07/2026",
-      time: "21:00",
-      group: "R32",
-      teamA: { name: "Argentina", code: "ar" },
-            teamB: { name: "Cabo Verde", code: "cv" },
-      venue: "Kansas City Stadium (Kansas City)"
     },
     {
       id: "R32_colombia_ghana",
