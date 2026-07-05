@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-05T16:10:30Z",
+  "last_check": "2026-07-05T21:02:10Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -711,6 +711,15 @@
       ],
       "score": "0-8",
       "summary_file": "partidas/R32_spain_austria.md"
+    },
+    "R32_mexico_ecuador": {
+      "date": "2026-07-01",
+      "teams": [
+        "México",
+        "Equador"
+      ],
+      "score": "0-0",
+      "summary_file": "partidas/R32_mexico_ecuador.md"
     }
   }
 }

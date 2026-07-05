@@ -2388,6 +2388,31 @@ A partida terminou com vitória de **Áustria** por **8 a 0**. O confronto foi v
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_mexico_ecuador",
+      date: "2026-07-01",
+      group: "R32",
+      teamA: { name: "México", code: "mx" },
+      teamB: { name: "Equador", code: "ec" },
+      score: "0-0",
+      venue: "Estadio Azteca (Cidade do México)",
+      summary_md: `# ⚽ Resumo do Jogo: México 0 - 0 Equador
+**Data:** 1 de Julho de 2026  
+**Estádio:** Estadio Azteca (Cidade do México)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou empatada em **0 a 0**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| México | Placar | Equador |
+|:---:|:---:|:---:|
+| 0 | X | 0 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2399,15 +2424,6 @@ A partida terminou com vitória de **Áustria** por **8 a 0**. O confronto foi v
       teamA: { name: "França", code: "fr" },
             teamB: { name: "Suécia", code: "se" },
       venue: "MetLife Stadium (New York/New Jersey)"
-    },
-    {
-      id: "R32_mexico_ecuador",
-      date: "01/07/2026",
-      time: "02:00",
-      group: "R32",
-      teamA: { name: "México", code: "mx" },
-            teamB: { name: "Equador", code: "ec" },
-      venue: "Estadio Azteca (Cidade do México)"
     },
     {
       id: "R32_england_drcongo",
