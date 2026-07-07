@@ -2413,6 +2413,31 @@ A partida terminou empatada em **0 a 0**. O confronto foi válido pela fase de g
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_usa_bosnia",
+      date: "2026-07-02",
+      group: "R32",
+      teamA: { name: "Estados Unidos", code: "us" },
+      teamB: { name: "Bósnia e Herzegovina", code: "ba" },
+      score: "9-1",
+      venue: "San Francisco Stadium (Santa Clara)",
+      summary_md: `# ⚽ Resumo do Jogo: Estados Unidos 9 - 1 Bósnia e Herzegovina
+**Data:** 2 de Julho de 2026  
+**Estádio:** San Francisco Stadium (Santa Clara)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Estados Unidos** por **9 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Estados Unidos | Placar | Bósnia e Herzegovina |
+|:---:|:---:|:---:|
+| 9 | X | 1 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2442,15 +2467,6 @@ A partida terminou empatada em **0 a 0**. O confronto foi válido pela fase de g
       teamA: { name: "Bélgica", code: "be" },
             teamB: { name: "Senegal", code: "sn" },
       venue: "Seattle Stadium (Seattle)"
-    },
-    {
-      id: "R32_usa_bosnia",
-      date: "02/07/2026",
-      time: "02:00",
-      group: "R32",
-      teamA: { name: "Estados Unidos", code: "us" },
-            teamB: { name: "Bósnia e Herzegovina", code: "ba" },
-      venue: "San Francisco Stadium (Santa Clara)"
     },
     {
       id: "R32_portugal_croatia",

@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-07T12:27:51Z",
+  "last_check": "2026-07-07T17:15:16Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -720,6 +720,15 @@
       ],
       "score": "0-0",
       "summary_file": "partidas/R32_mexico_ecuador.md"
+    },
+    "R32_usa_bosnia": {
+      "date": "2026-07-02",
+      "teams": [
+        "Estados Unidos",
+        "Bósnia e Herzegovina"
+      ],
+      "score": "9-1",
+      "summary_file": "partidas/R32_usa_bosnia.md"
     }
   }
 }
