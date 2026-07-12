@@ -2438,6 +2438,31 @@ A partida terminou com vitória de **Estados Unidos** por **9 a 1**. O confronto
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_belgium_senegal",
+      date: "2026-07-01",
+      group: "R32",
+      teamA: { name: "Bélgica", code: "be" },
+      teamB: { name: "Senegal", code: "sn" },
+      score: "7-8",
+      venue: "Seattle Stadium (Seattle)",
+      summary_md: `# ⚽ Resumo do Jogo: Bélgica 7 - 8 Senegal
+**Data:** 1 de Julho de 2026  
+**Estádio:** Seattle Stadium (Seattle)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Senegal** por **8 a 7**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Bélgica | Placar | Senegal |
+|:---:|:---:|:---:|
+| 7 | X | 8 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2458,15 +2483,6 @@ A partida terminou com vitória de **Estados Unidos** por **9 a 1**. O confronto
       teamA: { name: "Inglaterra", code: "gb-eng" },
             teamB: { name: "RD Congo", code: "cd" },
       venue: "Atlanta Stadium (Atlanta)"
-    },
-    {
-      id: "R32_belgium_senegal",
-      date: "01/07/2026",
-      time: "21:00",
-      group: "R32",
-      teamA: { name: "Bélgica", code: "be" },
-            teamB: { name: "Senegal", code: "sn" },
-      venue: "Seattle Stadium (Seattle)"
     },
     {
       id: "R32_portugal_croatia",
