@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-13T20:57:35Z",
+  "last_check": "2026-07-14T02:35:36Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -738,6 +738,15 @@
       ],
       "score": "7-8",
       "summary_file": "partidas/R32_belgium_senegal.md"
+    },
+    "R32_france_sweden": {
+      "date": "2026-06-30",
+      "teams": [
+        "França",
+        "Suécia"
+      ],
+      "score": "9-1",
+      "summary_file": "partidas/R32_france_sweden.md"
     }
   }
 }

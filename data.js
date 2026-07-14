@@ -2463,18 +2463,34 @@ A partida terminou com vitória de **Senegal** por **8 a 7**. O confronto foi v�
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_france_sweden",
+      date: "2026-06-30",
+      group: "R32",
+      teamA: { name: "França", code: "fr" },
+      teamB: { name: "Suécia", code: "se" },
+      score: "9-1",
+      venue: "MetLife Stadium (New York/New Jersey)",
+      summary_md: `# ⚽ Resumo do Jogo: França 9 - 1 Suécia
+**Data:** 30 de Junho de 2026  
+**Estádio:** MetLife Stadium (New York/New Jersey)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **França** por **9 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| França | Placar | Suécia |
+|:---:|:---:|:---:|
+| 9 | X | 1 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
-    {
-      id: "R32_france_sweden",
-      date: "30/06/2026",
-      time: "22:00",
-      group: "R32",
-      teamA: { name: "França", code: "fr" },
-            teamB: { name: "Suécia", code: "se" },
-      venue: "MetLife Stadium (New York/New Jersey)"
-    },
     {
       id: "R32_england_drcongo",
       date: "01/07/2026",
