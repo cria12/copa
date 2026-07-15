@@ -2488,6 +2488,31 @@ A partida terminou com vitória de **França** por **9 a 1**. O confronto foi v�
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_colombia_ghana",
+      date: "2026-07-04",
+      group: "R32",
+      teamA: { name: "Colômbia", code: "co" },
+      teamB: { name: "Gana", code: "gh" },
+      score: "9-1",
+      venue: "Miami Stadium (Miami)",
+      summary_md: `# ⚽ Resumo do Jogo: Colômbia 9 - 1 Gana
+**Data:** 4 de Julho de 2026  
+**Estádio:** Miami Stadium (Miami)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Colômbia** por **9 a 1**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Colômbia | Placar | Gana |
+|:---:|:---:|:---:|
+| 9 | X | 1 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2526,15 +2551,6 @@ A partida terminou com vitória de **França** por **9 a 1**. O confronto foi v�
       teamA: { name: "Austrália", code: "au" },
             teamB: { name: "Egito", code: "eg" },
       venue: "Philadelphia Stadium (Filadélfia)"
-    },
-    {
-      id: "R32_colombia_ghana",
-      date: "04/07/2026",
-      time: "01:00",
-      group: "R32",
-      teamA: { name: "Colômbia", code: "co" },
-            teamB: { name: "Gana", code: "gh" },
-      venue: "Miami Stadium (Miami)"
     }
   ],
   country_histories: {

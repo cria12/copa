@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-15T16:23:25Z",
+  "last_check": "2026-07-15T21:01:44Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -747,6 +747,15 @@
       ],
       "score": "9-1",
       "summary_file": "partidas/R32_france_sweden.md"
+    },
+    "R32_colombia_ghana": {
+      "date": "2026-07-04",
+      "teams": [
+        "Colômbia",
+        "Gana"
+      ],
+      "score": "9-1",
+      "summary_file": "partidas/R32_colombia_ghana.md"
     }
   }
 }
