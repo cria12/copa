@@ -2513,6 +2513,31 @@ A partida terminou com vitória de **Colômbia** por **9 a 1**. O confronto foi 
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_australia_egypt",
+      date: "2026-07-03",
+      group: "R32",
+      teamA: { name: "Austrália", code: "au" },
+      teamB: { name: "Egito", code: "eg" },
+      score: "7-4",
+      venue: "Philadelphia Stadium (Filadélfia)",
+      summary_md: `# ⚽ Resumo do Jogo: Austrália 7 - 4 Egito
+**Data:** 3 de Julho de 2026  
+**Estádio:** Philadelphia Stadium (Filadélfia)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Austrália** por **7 a 4**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Austrália | Placar | Egito |
+|:---:|:---:|:---:|
+| 7 | X | 4 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2542,15 +2567,6 @@ A partida terminou com vitória de **Colômbia** por **9 a 1**. O confronto foi 
       teamA: { name: "Suíça", code: "ch" },
             teamB: { name: "Argélia", code: "dz" },
       venue: "BC Place (Vancouver)"
-    },
-    {
-      id: "R32_australia_egypt",
-      date: "03/07/2026",
-      time: "18:00",
-      group: "R32",
-      teamA: { name: "Austrália", code: "au" },
-            teamB: { name: "Egito", code: "eg" },
-      venue: "Philadelphia Stadium (Filadélfia)"
     }
   ],
   country_histories: {
