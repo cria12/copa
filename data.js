@@ -2538,6 +2538,31 @@ A partida terminou com vitória de **Austrália** por **7 a 4**. O confronto foi
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_portugal_croatia",
+      date: "2026-07-02",
+      group: "R32",
+      teamA: { name: "Portugal", code: "pt" },
+      teamB: { name: "Croácia", code: "hr" },
+      score: "7-8",
+      venue: "Toronto Stadium (Toronto)",
+      summary_md: `# ⚽ Resumo do Jogo: Portugal 7 - 8 Croácia
+**Data:** 2 de Julho de 2026  
+**Estádio:** Toronto Stadium (Toronto)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Croácia** por **8 a 7**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Portugal | Placar | Croácia |
+|:---:|:---:|:---:|
+| 7 | X | 8 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2549,15 +2574,6 @@ A partida terminou com vitória de **Austrália** por **7 a 4**. O confronto foi
       teamA: { name: "Inglaterra", code: "gb-eng" },
             teamB: { name: "RD Congo", code: "cd" },
       venue: "Atlanta Stadium (Atlanta)"
-    },
-    {
-      id: "R32_portugal_croatia",
-      date: "02/07/2026",
-      time: "21:00",
-      group: "R32",
-      teamA: { name: "Portugal", code: "pt" },
-            teamB: { name: "Croácia", code: "hr" },
-      venue: "Toronto Stadium (Toronto)"
     },
     {
       id: "R32_switzerland_algeria",

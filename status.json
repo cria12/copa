@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-17T11:22:36Z",
+  "last_check": "2026-07-17T16:16:18Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -765,6 +765,15 @@
       ],
       "score": "7-4",
       "summary_file": "partidas/R32_australia_egypt.md"
+    },
+    "R32_portugal_croatia": {
+      "date": "2026-07-02",
+      "teams": [
+        "Portugal",
+        "Croácia"
+      ],
+      "score": "7-8",
+      "summary_file": "partidas/R32_portugal_croatia.md"
     }
   }
 }
