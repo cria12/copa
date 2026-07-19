@@ -2563,6 +2563,31 @@ A partida terminou com vitória de **Croácia** por **8 a 7**. O confronto foi v
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_switzerland_algeria",
+      date: "2026-07-03",
+      group: "R32",
+      teamA: { name: "Suíça", code: "ch" },
+      teamB: { name: "Argélia", code: "dz" },
+      score: "5-3",
+      venue: "BC Place (Vancouver)",
+      summary_md: `# ⚽ Resumo do Jogo: Suíça 5 - 3 Argélia
+**Data:** 3 de Julho de 2026  
+**Estádio:** BC Place (Vancouver)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **Suíça** por **5 a 3**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Suíça | Placar | Argélia |
+|:---:|:---:|:---:|
+| 5 | X | 3 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
@@ -2574,15 +2599,6 @@ A partida terminou com vitória de **Croácia** por **8 a 7**. O confronto foi v
       teamA: { name: "Inglaterra", code: "gb-eng" },
             teamB: { name: "RD Congo", code: "cd" },
       venue: "Atlanta Stadium (Atlanta)"
-    },
-    {
-      id: "R32_switzerland_algeria",
-      date: "03/07/2026",
-      time: "01:00",
-      group: "R32",
-      teamA: { name: "Suíça", code: "ch" },
-            teamB: { name: "Argélia", code: "dz" },
-      venue: "BC Place (Vancouver)"
     }
   ],
   country_histories: {

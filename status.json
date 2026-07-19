@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-07-19T07:27:17Z",
+  "last_check": "2026-07-19T11:08:58Z",
   "processed_matches": {
     "20260611_mexico_south_africa": {
       "date": "2026-06-11",
@@ -774,6 +774,15 @@
       ],
       "score": "7-8",
       "summary_file": "partidas/R32_portugal_croatia.md"
+    },
+    "R32_switzerland_algeria": {
+      "date": "2026-07-03",
+      "teams": [
+        "Suíça",
+        "Argélia"
+      ],
+      "score": "5-3",
+      "summary_file": "partidas/R32_switzerland_algeria.md"
     }
   }
 }
