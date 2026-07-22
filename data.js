@@ -2588,18 +2588,34 @@ A partida terminou com vitória de **Suíça** por **5 a 3**. O confronto foi v�
 ---
 *Atualizado automaticamente via GitHub Actions.*
 `
+    },
+    {
+      id: "R32_england_drcongo",
+      date: "2026-07-01",
+      group: "R32",
+      teamA: { name: "Inglaterra", code: "gb-eng" },
+      teamB: { name: "RD Congo", code: "cd" },
+      score: "8-9",
+      venue: "Atlanta Stadium (Atlanta)",
+      summary_md: `# ⚽ Resumo do Jogo: Inglaterra 8 - 9 RD Congo
+**Data:** 1 de Julho de 2026  
+**Estádio:** Atlanta Stadium (Atlanta)  
+**Fase:** Fase de Grupos - Grupo R32
+
+## 📝 Visão Geral do Jogo
+A partida terminou com vitória de **RD Congo** por **9 a 8**. O confronto foi válido pela fase de grupos da Copa do Mundo de 2026, Grupo R32.
+
+## 📊 Resultado Final
+| Inglaterra | Placar | RD Congo |
+|:---:|:---:|:---:|
+| 8 | X | 9 |
+
+---
+*Atualizado automaticamente via GitHub Actions.*
+`
     }
   ],
   upcoming_matches: [
-    {
-      id: "R32_england_drcongo",
-      date: "01/07/2026",
-      time: "18:00",
-      group: "R32",
-      teamA: { name: "Inglaterra", code: "gb-eng" },
-            teamB: { name: "RD Congo", code: "cd" },
-      venue: "Atlanta Stadium (Atlanta)"
-    }
   ],
   country_histories: {
     "mx": "O México tem uma rica história que remonta às civilizações Asteca e Maia, colonizado pela Espanha em 1521. No futebol, é uma força tradicional da CONCACAF, sediando sua terceira Copa do Mundo (1970, 1986 e 2026), e conhecido pela paixão de sua torcida.",
